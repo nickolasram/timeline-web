@@ -1,0 +1,32 @@
+{"landmarks": [{"x": 3, "y": -3, "row": "row-start-1 row-end-6", "column": "col-start-1 col-end-6", "size": 5,
+  "relationshipAngles": [{"startpoint": "2 -99", "endpoint": "36 -93"}, {"startpoint": "91 -42", "endpoint": "100 -8"},
+    {"startpoint": "90 44", "endpoint": "70 72"}, {"startpoint": "-24 98", "endpoint": "-55 83"}]},
+  {"x": 9, "y": -7, "row": "row-start-4 row-end-11", "column": "col-start-4 col-end-11", "size": 7, "relationshipAngles":
+  [{"startpoint": "0 -100", "endpoint": "71 -70"}, {"startpoint": "98 -22",
+    "endpoint": "96 30"}, {"startpoint": "-52 85", "endpoint": "-78 62"},
+    {"startpoint": "-96 26", "endpoint": "-99 -8"},
+    {"startpoint": "-97 -24", "endpoint": "-82 -55"}]},
+  {"x": 14, "y": -2, "row": "row-start-2 row-end-5", "column": "col-start-8 col-end-11", "size": 3,
+    "relationshipAngles": [
+      {"startpoint": "46 -89", "endpoint": "84 -54"},
+      {"startpoint": "87 -50", "endpoint": "100 0"},
+      {"startpoint": "83 56", "endpoint": "59 81"},
+      {"startpoint": "-12 100", "endpoint": "-45 90"},
+      {"startpoint": "-89 46", "endpoint": "-83 -54"}]},
+  {"x": 19, "y": -9, "row": "row-start-6 row-end-13", "column": "col-start-16 col-end-23", "size": 7,
+    "relationshipAngles": [
+      {"startpoint": "-39 93", "endpoint": "-79 61"}]},
+  {"x": 25, "y": -3, "row": "row-start-1 row-end-6", "column": "col-start-23 col-end-28", "size": 5,
+    "relationshipAngles": [
+      {"startpoint": "0 -100", "endpoint": "50 87"},
+      {"startpoint": "-6 100", "endpoint": "-69 72"},
+      {"startpoint": "-76 65", "endpoint": "-93 35"},
+      {"startpoint": "-99 -12", "endpoint": "-89 -45"}]},
+  {"x": 29, "y": -10, "row": "row-start-7 row-end-10", "column": "col-start-29 col-end-32", "size": 3,
+    "relationshipAngles": [
+      {"startpoint": "9 -99", "endpoint": "43 -90"},
+      {"startpoint": "100 -1", "endpoint": "95 33"},
+      {"startpoint": "79 62", "endpoint": "53 85"},
+      {"startpoint": "-99 9", "endpoint": "-96 -25"},
+      {"startpoint": "-81 -57", "endpoint": "-57 -81"}]},
+  {"x": 33, "y": -5, "row": "row-start-3 row-end-8", "column": "col-start-31 col-end-36", "size": 5, "relationshipAngles": [{"startpoint": "2 -99", "endpoint": "36 -93"}, {"startpoint": "46 -89", "endpoint": "93 -39"}, {"startpoint": "100 -1", "endpoint": "95 33"}, {"startpoint": "-10 100", "endpoint": "-58 81"}, {"startpoint": "-96 26", "endpoint": "-96 -25"}]}, {"x": 38, "y": -10, "row": "row-start-8 row-end-13", "column": "col-start-36 col-end-41", "size": 5, "relationshipAngles": [{"startpoint": "88 49", "endpoint": "66 76"}, {"startpoint": "-22 98", "endpoint": "-54 84"}, {"startpoint": "-75 66", "endpoint": "-98 20"}]}, {"x": 43, "y": -5, "row": "row-start-3 row-end-8", "column": "col-start-41 col-end-46", "size": 5, "relationshipAngles": [{"startpoint": "96 30", "endpoint": "80 61"}, {"startpoint": "1 100", "endpoint": "-50 -86"}]}, {"x": 47, "y": -8, "row": "row-start-7 row-end-10", "column": "col-start-46 col-end-49", "size": 3, "relationshipAngles": [{"startpoint": "6 -99", "endpoint": "40 -92"}, {"startpoint": "47 -88", "endpoint": "93 -37"}, {"startpoint": "94 36", "endpoint": "76 66"}, {"startpoint": "1 100", "endpoint": "-34 94"}, {"startpoint": "-55 83", "endpoint": "-89 44"}, {"startpoint": "-98 20", "endpoint": "-98 -15"}, {"startpoint": "-95 -29", "endpoint": "-68 -73"}]}, {"x": 51, "y": -4, "row": "row-start-2 row-end-7", "column": "col-start-49 col-end-54", "size": 5, "relationshipAngles": [{"startpoint": "99 -17", "endpoint": "99 18"}, {"startpoint": "-95 30", "endpoint": "-99 -5"}, {"startpoint": "-90 -42", "endpoint": "-70 -70"}]}, {"x": 56, "y": -9, "row": "row-start-7 row-end-12", "column": "col-start-54 col-end-59", "size": 5, "relationshipAngles": [{"startpoint": "0 -100", "endpoint": "50 87"}, {"startpoint": "-99 13", "endpoint": "-92 -39"}]}]}
