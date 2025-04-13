@@ -17,7 +17,13 @@ const Timeline = () => {
             {
                 landmarks.map((landmark, index) => {
                     return (
-                        <Landmark column={landmark.column} row={landmark.row} relationAngles={landmark.relationshipAngles} key={index}/>
+                        <Landmark column={landmark.column} row={landmark.row} 
+                        era={landmark.era} year={landmark.year} title={landmark.title}
+                        relationAngles={landmark.relationshipAngles} size={landmark.size} 
+                        activeEndYear={landmark?.a_e_year} birthyear={landmark?.birthyear}
+                        deathyear={landmark?.deathyear} image={landmark?.image} displayDate={landmark.display_date}
+                         key={index} bgColor={landmark.bg_color} borderColor={landmark.border_color}
+                         description={landmark.description}/>
                     )
                 })
             }
