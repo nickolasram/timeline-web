@@ -1,23 +1,22 @@
-interface IEra {
-    column: string;
-    row: string;
-    year: number;
-    title: string;
-    image?: string;
-    eraEndYear?: string;
-    displayDate?: boolean;
-    bgColor: string;
-    description?: string;
+import {ILandmark} from "@/types";
+
+interface IEraProp {
+    landmark: ILandmark;
 }
 
-const Era=({column, row, year, title, image, eraEndYear, displayDate, bgColor, description}: IEra)=>{
+const Era=({landmark}: IEraProp)=>{
     return(
-        <div className={`${column} ${row}  w-full h-full bg-cover
-        ${image}`}>
-            <div className={`${bgColor} w-full h-full p-3`}>
-                <p className={`text-3xl`}>{title}</p>
-                {displayDate &&
-                    <p>{year} - {eraEndYear}</p>
+        <div id={landmark.id} className={`${landmark.column} ${landmark.row}  w-full h-full bg-cover
+        ${landmark.image}`}>
+            <div className={`${landmark.bgColor} w-full h-full`}>
+                <p className={`text-3xl pt-3 px-3 text-shadow-indigo-500`}>{landmark.title}</p>
+                {landmark.displayDate &&
+                    <p>{landmark.year} - {landmark.eraEndYear}</p>
+                }
+                {landmark.description &&
+                    <p className={`mt-3
+                        [text-shadow:_0_2px_4px_rgba(0,0,0,0.5)]
+                    px-3 py-3`}>{landmark.description}</p>
                 }
             </div>
         </div>

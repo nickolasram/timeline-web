@@ -24,3 +24,9 @@ body {
   color: var(--foreground);
   font-family: "Hedvig Letters Serif", serif;
 }
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
