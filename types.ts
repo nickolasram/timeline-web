@@ -18,6 +18,7 @@ export interface ILandmark {
     activeEndMonth?: number;
     activeEndYear?: number;
     bgColor: string;
+    bgImage: string;
     birthDay?: number;
     birthMonth?: number;
     birthYear?: number;
@@ -33,7 +34,9 @@ export interface ILandmark {
     eraEndYear?: number;
     id: string;
     image?: string;
+    intro?: boolean | string;
     month: number;
+    person: boolean;
     relationshipGroups?: IRelationshipGroup[];
     row: string;
     size: number;

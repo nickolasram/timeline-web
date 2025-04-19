@@ -4,9 +4,10 @@ import {Popover, PopoverButton, PopoverPanel} from "@headlessui/react";
 
 interface IRelationshipGroupProps {
     relationshipGroup:IRelationshipGroup;
+    color: string
 }
 
-const RelationshipGroup=({ relationshipGroup }: IRelationshipGroupProps)=>{
+const RelationshipGroup=({ relationshipGroup, color }: IRelationshipGroupProps)=>{
     const [isRendered, setRendered] = useState(false);
     useEffect(() => {
         setRendered(true);
@@ -24,7 +25,7 @@ const RelationshipGroup=({ relationshipGroup }: IRelationshipGroupProps)=>{
                             <PopoverButton as="path"
                                            d={`M ${relationshipGroup.startPoint} A 100 100 45 0 1 ${relationshipGroup.endPoint}`}
                                            fill="none"
-                                           stroke="#B2C063"
+                                           stroke={color.slice(8,15)}
                                            strokeWidth="4"
                                            transform={`rotate(15)`}
                                            className={`group-hover:scale-105 transition-all duration-300 ease-in-out
@@ -33,7 +34,7 @@ const RelationshipGroup=({ relationshipGroup }: IRelationshipGroupProps)=>{
                             {open && (
                                 <g>
                                     {
-                                        relationshipGroup.relationships.map((relationship, index)=>{
+                                        relationshipGroup.relationships.slice(0,6).map((relationship, index)=>{
                                             return(
                                                 <PopoverPanel as={"text"}
                                                               x={relationship.x}
@@ -45,9 +46,9 @@ const RelationshipGroup=({ relationshipGroup }: IRelationshipGroupProps)=>{
                                                                   if (event.button == 0){
                                                                       const element = document!.getElementById(relationship.targetId)!
                                                                       element.scrollIntoView({ behavior: "smooth", block: "end", inline: "center" })
-                                                                      element.classList.add('animate-[blinker_1s_linear_5]')
+                                                                      element.classList.add('animate-[blinker_500ms_linear_5]')
                                                                       setTimeout(function () {
-                                                                          element.classList.remove('animate-[blinker_1s_linear_5]')
+                                                                          element.classList.remove('animate-[blinker_500ms_linear_5]')
                                                                       }, 5000);
                                                                   }
                                                               }}>

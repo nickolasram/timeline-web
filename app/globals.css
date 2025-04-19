@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 :root {
   --background: #ffffff;
   --foreground: #171717;
@@ -8,8 +9,8 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-hedvig-letters);
-  --font-mono: var(--font-hedvig-letters);
+  --font-sans: "Hedvig Letters Serif", serif;
+  --font-mono: "Hedvig Letters Serif", serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -29,4 +30,31 @@ body {
   50% {
     opacity: 0;
   }
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-hide {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.min-scrollbar::-webkit-scrollbar {
+  width: 8px;
+  /*padding-block: 50%;*/
+}
+
+.min-scrollbar::-webkit-scrollbar-track {
+  opacity: 0;
+}
+
+.min-scrollbar::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 5px;
+}
+
+.min-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }
