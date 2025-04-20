@@ -1,13 +1,14 @@
-import { IRelationshipGroup } from "@/types";
+import { ILandmark, IRelationshipGroup } from "@/types";
 import {useEffect, useState} from "react";
 import {Popover, PopoverButton, PopoverPanel} from "@headlessui/react";
 
 interface IRelationshipGroupProps {
     relationshipGroup:IRelationshipGroup;
-    color: string
+    color: string;
+    landmark: ILandmark;
 }
 
-const RelationshipGroup=({ relationshipGroup, color }: IRelationshipGroupProps)=>{
+const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGroupProps)=>{
     const [isRendered, setRendered] = useState(false);
     useEffect(() => {
         setRendered(true);
@@ -16,6 +17,22 @@ const RelationshipGroup=({ relationshipGroup, color }: IRelationshipGroupProps)=
             setRendered(false);
         }
     }, []);
+    let size: string;
+    let titlesShown: number;
+    switch (landmark.size){
+        case 3:
+            size = '2rem'
+            titlesShown = 4
+            break
+        case 5:
+            size = '1rem'
+            titlesShown = 5
+            break
+        case 7:
+            size = '1rem'
+            titlesShown = 6
+            break
+    }
     return(
         <g>
             {isRendered &&
@@ -34,11 +51,11 @@ const RelationshipGroup=({ relationshipGroup, color }: IRelationshipGroupProps)=
                             {open && (
                                 <g>
                                     {
-                                        relationshipGroup.relationships.slice(0,6).map((relationship, index)=>{
+                                        relationshipGroup.relationships.slice(0,titlesShown).map((relationship, index)=>{
                                             return(
                                                 <PopoverPanel as={"text"}
                                                               x={relationship.x}
-                                                              y={relationship.y} fontSize="10"
+                                                              y={relationship.y} fontSize={size}
                                                               static key={index} fill="white"
                                                               dx={`${relationship.dx}%`} dy={`${relationship.dy}%`}
                                                               className={`cursor-pointer`}

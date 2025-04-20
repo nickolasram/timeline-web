@@ -12,7 +12,7 @@
             "size": 5,
             "bgColor": "bg-[#B2C0637F]",
             "borderColor": "border-[#B2C063]",
-            "id": "6286fdd50488c001",
+            "id": "57addc9e35adf23a",
             "person": false,
             "intro": "Pre-jazz is the time before the recognition of jazz as an individual music art form and is perhaps the most important. It was during this time that the musical and cultural influences blended together to create jazz. No records were kept and recording studios and devices were not available, the history of pre-jazz is still mostly unknown. The social and cultural influences appeared to come from all directions. The African musical traditions that continued as a part of the slave culture and these traditions were superimposed on the dominant white musical culture.",
             "image": "https://www.messynessychic.com/wp-content/uploads/2022/01/scott-AJM-1999-20-284-001.jpg",
@@ -31,7 +31,7 @@
             "size": 3,
             "bgColor": "bg-[#B2C0637F]",
             "borderColor": "border-[#B2C063]",
-            "id": "e29b8f9a6366cd43",
+            "id": "cb5963970b819c25",
             "person": false,
             "intro": false,
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fprojetoitaca.com.br%2Fwp-content%2Fuploads%2F2020%2F12%2FRobert-Johnson.jpg&f=1&nofb=1&ipt=7dad8bfc3686d1fde77ea0a53bb2f2a5619d62d78db108ae93d2f3c1f72487ed",
@@ -39,87 +39,54 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
+                    "endPoint": "35 -93",
+                    "relationships": [
+                        {
+                            "title": "Buddy Bo",
+                            "x": 47,
+                            "y": -99,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "44 -89",
+                    "endPoint": "83 -55",
+                    "relationships": [
+                        {
+                            "title": "CannonBa",
+                            "x": 86,
+                            "y": -69,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "1a257c8581350f05",
+                            "date": 1963
+                        },
+                        {
+                            "title": "Art Farm",
+                            "x": 97,
+                            "y": -53,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "415ddcbf356a72e7",
+                            "date": 1969
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "77 65",
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
-                            "x": 65,
-                            "y": -88,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "41812f05978ddd42",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Swing1",
-                            "x": 94,
-                            "y": -58,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
-                        },
-                        {
-                            "title": "The Swin2",
-                            "x": 108,
-                            "y": -20,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "419de9238779b968",
-                            "date": 1954
-                        },
-                        {
-                            "title": "Paul Buf3",
-                            "x": 108,
-                            "y": 21,
+                            "title": "Paul Buf",
+                            "x": 47,
+                            "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "3d0011a2e4a233b0",
-                            "date": 1955
-                        },
-                        {
-                            "title": "Paul Buf4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
-                        },
-                        {
-                            "title": "Paul Buf5",
-                            "x": 65,
-                            "y": 89,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "ec0f771125afa74c",
-                            "date": 1970
-                        },
-                        {
-                            "title": "The Smoo6",
-                            "x": 29,
-                            "y": 107,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        },
-                        {
-                            "title": "A Darker7",
-                            "x": -11,
-                            "y": 110,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "2b935f3bb7e4c4f8",
-                            "date": 1980
-                        },
-                        {
-                            "title": "Paul Buf8",
-                            "x": -51,
-                            "y": 98,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
+                            "targetId": "8c44a90e2af0868c",
                             "date": 1998
                         }
                     ]
@@ -138,7 +105,7 @@
             "size": 3,
             "bgColor": "bg-[#B2C0637F]",
             "borderColor": "border-[#B2C063]",
-            "id": "e65492745478a354",
+            "id": "ad96aae16ecd2c9d",
             "person": true,
             "intro": false,
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.needsomefun.net%2Fwp-content%2Fuploads%2F2016%2F07%2FMiles-Davis-1.jpeg&f=1&nofb=1&ipt=4f727e39bd7fda300428619d48cb6f4bc1e1d145948cb5bc061613c9b53747dd",
@@ -147,61 +114,55 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
+                    "endPoint": "35 -93",
+                    "relationships": [
+                        {
+                            "title": "Swing",
+                            "x": 47,
+                            "y": -99,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "3beedc1208cd217a",
+                            "date": 1944
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "79 -61",
+                    "endPoint": "100 -13",
+                    "relationships": [
+                        {
+                            "title": "The Stra",
+                            "x": 108,
+                            "y": -24,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "2781fd774f601634",
+                            "date": 1954
+                        },
+                        {
+                            "title": "Buddy Bo",
+                            "x": 110,
+                            "y": -5,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "77 65",
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Swing0",
-                            "x": 65,
-                            "y": -88,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Title 11",
-                            "x": 94,
-                            "y": -58,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "f4b4f83d39c054b4",
-                            "date": 1950
-                        },
-                        {
-                            "title": "Marlena 2",
-                            "x": 108,
-                            "y": -20,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "480180a5a6f6e1cc",
-                            "date": 1971
-                        },
-                        {
-                            "title": "The Smoo3",
-                            "x": 108,
-                            "y": 21,
+                            "title": "Theloniu",
+                            "x": 47,
+                            "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        },
-                        {
-                            "title": "The Jazz4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
-                        },
-                        {
-                            "title": "Blanket 5",
-                            "x": 65,
-                            "y": 89,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
                         }
                     ]
                 }
@@ -228,7 +189,7 @@
             "size": 7,
             "bgColor": "bg-[#B2C0637F]",
             "borderColor": "border-[#B2C063]",
-            "id": "41812f05978ddd42",
+            "id": "e315fa846b9bd102",
             "person": false,
             "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam et elit nec condimentum. Morbi sit amet felis dolor. Vestibulum molestie eleifend iaculis. Ut augue augue, varius id aliquet ac, vehicula sit amet purus. Nullam quis ex dictum purus fringilla pretium in in justo. Cras nec metus ligula. Aenean nec luctus lorem, sit amet aliquet ligula. Pellentesque vestibulum vitae neque ultricies gravida. Nam faucibus blandit lectus, eu lobortis tellus fringilla sit amet. Duis auctor cursus est, nec eleifend lacus ullamcorper vel. In varius congue lorem, vitae maximus mi faucibus a. Pellentesque efficitur pellentesque magna in pulvinar. Morbi viverra ultrices sapien, quis placerat diam tincidunt non.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fy.yarn.co%2F46d3497c-75ea-4b52-9e87-883593080a3b_screenshot.jpg&f=1&nofb=1&ipt=ba1b9e2e60eb2900d145a84e0ff1aaace10fff78917d70e0bb651ff3838b0538",
@@ -236,16 +197,103 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "35 -93",
+                    "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "The Jazz0",
-                            "x": 47,
-                            "y": -99,
+                            "title": "Swing",
+                            "x": 65,
+                            "y": -88,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
+                            "targetId": "3beedc1208cd217a",
+                            "date": 1944
+                        },
+                        {
+                            "title": "Buddy Bo",
+                            "x": 94,
+                            "y": -58,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
+                        },
+                        {
+                            "title": "CannonBa",
+                            "x": 108,
+                            "y": -20,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "1a257c8581350f05",
+                            "date": 1963
+                        },
+                        {
+                            "title": "Theloniu",
+                            "x": 108,
+                            "y": 21,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
+                        },
+                        {
+                            "title": "Duke Ell",
+                            "x": 94,
+                            "y": 59,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "619e6f1899697f74",
+                            "date": 1970
+                        },
+                        {
+                            "title": "Marlena ",
+                            "x": 65,
+                            "y": 89,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
+                        },
+                        {
+                            "title": "A Darker",
+                            "x": 29,
+                            "y": 107,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
+                        },
+                        {
+                            "title": "Blanket ",
+                            "x": -11,
+                            "y": 110,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "148819401402e30c",
+                            "date": 1995
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "1 100",
+                    "endPoint": "-50 87",
+                    "relationships": [
+                        {
+                            "title": "Before J",
+                            "x": -63,
+                            "y": 91,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "57addc9e35adf23a",
+                            "date": 1936
+                        },
+                        {
+                            "title": "The Blue",
+                            "x": -46,
+                            "y": 100,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "cb5963970b819c25",
+                            "date": 1936
                         }
                     ]
                 }
@@ -263,7 +311,7 @@
             "size": 7,
             "bgColor": "bg-[#B2C0637F]",
             "borderColor": "border-[#B2C063]",
-            "id": "8c32e74a7f97ef3b",
+            "id": "3beedc1208cd217a",
             "person": false,
             "intro": false,
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.britannica.com%2F73%2F201073-050-7A256B9D%2Fbig-band-jazz-greats-Duke-Ellington-Otto.jpg&f=1&nofb=1&ipt=c8d1d3373a623cb1193a5472cedfab18fcbba7b73c165611827fdbc582e70ece",
@@ -274,127 +322,76 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Title 10",
+                            "title": "Paul Buf",
                             "x": 65,
                             "y": -88,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "f4b4f83d39c054b4",
-                            "date": 1950
+                            "targetId": "c1446b8005582b7f",
+                            "date": 1955
                         },
                         {
-                            "title": "The Stra1",
+                            "title": "Paul Buf",
                             "x": 94,
                             "y": -58,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "aefeac56fcbb5570",
-                            "date": 1954
+                            "targetId": "27b1f59c715bbf22",
+                            "date": 1970
                         },
                         {
-                            "title": "Paul Buf2",
+                            "title": "Paul Buf",
                             "x": 108,
                             "y": -20,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
+                            "targetId": "00294dae81c7effb",
+                            "date": 1970
                         },
                         {
-                            "title": "Theloniu3",
+                            "title": "The Smoo",
                             "x": 108,
                             "y": 21,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
+                            "targetId": "70adeec90e87803d",
+                            "date": 1974
                         },
                         {
-                            "title": "Duke Ell4",
+                            "title": "A Darker",
                             "x": 94,
                             "y": 59,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "4c4c21a3feaa2a9c",
-                            "date": 1970
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
                         },
                         {
-                            "title": "Paul Buf5",
+                            "title": "Miles Da",
                             "x": 65,
                             "y": 89,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
+                            "targetId": "a2fab6b501132a63",
+                            "date": 1984
                         },
                         {
-                            "title": "Paul Buf6",
+                            "title": "Bitch's ",
                             "x": 29,
                             "y": 107,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "ec0f771125afa74c",
-                            "date": 1970
+                            "targetId": "3044c0fa1e2b5087",
+                            "date": 1990
                         },
                         {
-                            "title": "Benny Hi7",
+                            "title": "Paul Buf",
                             "x": -11,
                             "y": 110,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "6758f405beb01567",
-                            "date": 1972
-                        },
-                        {
-                            "title": "A Darker8",
-                            "x": -51,
-                            "y": 98,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "2b935f3bb7e4c4f8",
-                            "date": 1980
-                        },
-                        {
-                            "title": "Miles Da9",
-                            "x": -83,
-                            "y": 73,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        },
-                        {
-                            "title": "Bitch's 10",
-                            "x": -104,
-                            "y": 36,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "0c5103da33853392",
-                            "date": 1990
-                        },
-                        {
-                            "title": "Miles Da11",
-                            "x": -109,
-                            "y": -3,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "1 100",
-                    "endPoint": "-34 94",
-                    "relationships": [
-                        {
-                            "title": "Miles Da0",
-                            "x": -46,
-                            "y": 100,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "e65492745478a354",
-                            "date": 1944
+                            "targetId": "8c44a90e2af0868c",
+                            "date": 1998
                         }
                     ]
                 }
@@ -412,7 +409,7 @@
             "size": 7,
             "bgColor": "bg-[#B2C0637F]",
             "borderColor": "border-[#B2C063]",
-            "id": "f4b4f83d39c054b4",
+            "id": "1b45137bae971bf8",
             "person": false,
             "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam et elit nec condimentum. Morbi sit amet felis dolor. Vestibulum molestie eleifend iaculis. Ut augue augue, varius id aliquet ac, vehicula sit amet purus. Nullam quis ex dictum purus fringilla pretium in in justo. Cras nec metus ligula. Aenean nec luctus lorem, sit amet aliquet ligula. Pellentesque vestibulum vitae neque ultricies gravida. Nam faucibus blandit lectus, eu lobortis tellus fringilla sit amet. Duis auctor cursus est, nec eleifend lacus ullamcorper vel. In varius congue lorem, vitae maximus mi faucibus a. Pellentesque efficitur pellentesque magna in pulvinar. Morbi viverra ultrices sapien, quis placerat diam tincidunt non.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F428316729220276224%2FEdBZ2Kgp.jpeg&f=1&nofb=1&ipt=6088c5a2c1f1f40bbf88c24c95a37af5d7982fda497d01780314cfdc9d2432fb",
@@ -423,103 +420,85 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "The Swin0",
+                            "title": "The Stra",
                             "x": 65,
                             "y": -88,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "419de9238779b968",
+                            "targetId": "2781fd774f601634",
                             "date": 1954
                         },
                         {
-                            "title": "Paul Buf1",
+                            "title": "Art Farm",
                             "x": 94,
                             "y": -58,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "3d0011a2e4a233b0",
-                            "date": 1955
+                            "targetId": "415ddcbf356a72e7",
+                            "date": 1969
                         },
                         {
-                            "title": "CannonBa2",
+                            "title": "Paul Buf",
                             "x": 108,
                             "y": -20,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "12dec8d62ebc0ef5",
-                            "date": 1963
+                            "targetId": "00294dae81c7effb",
+                            "date": 1970
                         },
                         {
-                            "title": "Art Farm3",
+                            "title": "Marlena ",
                             "x": 108,
                             "y": 21,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "30f82627a5267191",
-                            "date": 1969
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
                         },
                         {
-                            "title": "Paul Buf4",
+                            "title": "Benny Hi",
                             "x": 94,
                             "y": 59,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
+                            "targetId": "57e8d19211e3e05b",
+                            "date": 1972
                         },
                         {
-                            "title": "Marlena 5",
+                            "title": "A Darker",
                             "x": 65,
                             "y": 89,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "480180a5a6f6e1cc",
-                            "date": 1971
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
                         },
                         {
-                            "title": "Benny Hi6",
+                            "title": "A Bright",
                             "x": 29,
                             "y": 107,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "6758f405beb01567",
-                            "date": 1972
+                            "targetId": "4f60c128915fc120",
+                            "date": 1981
                         },
                         {
-                            "title": "The Smoo7",
+                            "title": "Bitch's ",
                             "x": -11,
                             "y": 110,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
+                            "targetId": "3044c0fa1e2b5087",
+                            "date": 1990
                         },
                         {
-                            "title": "A Darker8",
+                            "title": "Blanket ",
                             "x": -51,
                             "y": 98,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "2b935f3bb7e4c4f8",
-                            "date": 1980
-                        },
-                        {
-                            "title": "Miles Da9",
-                            "x": -83,
-                            "y": 73,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        },
-                        {
-                            "title": "Miles Da10",
-                            "x": -104,
-                            "y": 36,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
+                            "targetId": "148819401402e30c",
+                            "date": 1995
                         }
                     ]
                 },
@@ -528,48 +507,30 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -70,
-                            "y": -84,
+                            "title": "Before J",
+                            "x": -87,
+                            "y": -66,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "The Blue1",
-                            "x": -99,
-                            "y": -46,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
-                        },
-                        {
-                            "title": "Miles Da2",
+                            "title": "Paul Buf",
                             "x": -110,
                             "y": 1,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "e65492745478a354",
+                            "targetId": "e315fa846b9bd102",
                             "date": 1944
                         },
                         {
-                            "title": "Paul Buf3",
-                            "x": -99,
-                            "y": 47,
+                            "title": "Swing",
+                            "x": -87,
+                            "y": 67,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "41812f05978ddd42",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Swing4",
-                            "x": -70,
-                            "y": 85,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "8c32e74a7f97ef3b",
+                            "targetId": "3beedc1208cd217a",
                             "date": 1944
                         }
                     ]
@@ -588,7 +549,7 @@
             "size": 5,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "419de9238779b968",
+            "id": "2af423f6cab21af2",
             "person": false,
             "intro": "The swing era (also frequently referred to as the big band era) was the period when big band swing music was the most popular music in the United States, especially for teenagers. Though this was its most popular period, the music had actually been around since the late 1920s and early 1930s, being played by black bands led by such artists as Duke Ellington, Jimmie Lunceford, Bennie Moten, Cab Calloway, Earl Hines, and Fletcher Henderson, and white bands from the 1920s led by the likes of Jean Goldkette, Russ Morgan and Isham Jones.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.kaufmanmusiccenter.org%2Fimages%2Fuploads%2Fevents%2F_medium%2FDuke_Ellington_1200x1200.jpg&f=1&nofb=1&ipt=bc440045f73dd7efb2f8bb046b5ac2224d89863badfb27969762347bccbc8e7d",
@@ -607,7 +568,7 @@
             "size": 3,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "aefeac56fcbb5570",
+            "id": "2781fd774f601634",
             "person": false,
             "intro": false,
             "image": false,
@@ -615,112 +576,16 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "50 87",
+                    "endPoint": "35 -93",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
-                            "x": 65,
-                            "y": -88,
+                            "title": "Paul Buf",
+                            "x": 47,
+                            "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "3d0011a2e4a233b0",
-                            "date": 1955
-                        },
-                        {
-                            "title": "Paul Buf1",
-                            "x": 94,
-                            "y": -58,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
-                        },
-                        {
-                            "title": "Benny Hi2",
-                            "x": 108,
-                            "y": -20,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "6758f405beb01567",
-                            "date": 1972
-                        },
-                        {
-                            "title": "A Bright3",
-                            "x": 108,
-                            "y": 21,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "be0da7f56449ed1b",
-                            "date": 1981
-                        },
-                        {
-                            "title": "Miles Da4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        },
-                        {
-                            "title": "Paul Buf5",
-                            "x": 65,
-                            "y": 89,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
+                            "targetId": "8c44a90e2af0868c",
                             "date": 1998
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "1 100",
-                    "endPoint": "-50 -86",
-                    "relationships": [
-                        {
-                            "title": "Before J0",
-                            "x": -70,
-                            "y": -84,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "6286fdd50488c001",
-                            "date": 1936
-                        },
-                        {
-                            "title": "The Blue1",
-                            "x": -99,
-                            "y": -46,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
-                        },
-                        {
-                            "title": "Miles Da2",
-                            "x": -110,
-                            "y": 1,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "e65492745478a354",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Swing3",
-                            "x": -99,
-                            "y": 47,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
-                        },
-                        {
-                            "title": "The Swin4",
-                            "x": -70,
-                            "y": 85,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "419de9238779b968",
-                            "date": 1954
                         }
                     ]
                 }
@@ -738,7 +603,7 @@
             "size": 5,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "2b41a4b80c019817",
+            "id": "191979c478ad08cd",
             "person": true,
             "intro": false,
             "image": 0,
@@ -749,76 +614,76 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
-                            "x": 65,
-                            "y": -88,
+                            "title": "Paul Buf",
+                            "x": 71,
+                            "y": -84,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "3d0011a2e4a233b0",
+                            "targetId": "c1446b8005582b7f",
                             "date": 1955
                         },
                         {
-                            "title": "CannonBa1",
-                            "x": 94,
-                            "y": -58,
+                            "title": "Paul Buf",
+                            "x": 100,
+                            "y": -46,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "12dec8d62ebc0ef5",
-                            "date": 1963
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
                         },
                         {
-                            "title": "Paul Buf2",
-                            "x": 108,
-                            "y": -20,
+                            "title": "Art Farm",
+                            "x": 110,
+                            "y": 0,
                             "dx": 0,
-                            "dy": 0,
-                            "targetId": "ec0f771125afa74c",
+                            "dy": 4,
+                            "targetId": "415ddcbf356a72e7",
+                            "date": 1969
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": 100,
+                            "y": 47,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "27b1f59c715bbf22",
                             "date": 1970
                         },
                         {
-                            "title": "Benny Hi3",
-                            "x": 108,
-                            "y": 21,
+                            "title": "The Smoo",
+                            "x": 71,
+                            "y": 85,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "6758f405beb01567",
-                            "date": 1972
+                            "targetId": "70adeec90e87803d",
+                            "date": 1974
                         },
                         {
-                            "title": "A Bright4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "be0da7f56449ed1b",
-                            "date": 1981
-                        },
-                        {
-                            "title": "Miles Da5",
-                            "x": 65,
-                            "y": 89,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        },
-                        {
-                            "title": "Bitch's 6",
+                            "title": "Miles Da",
                             "x": 29,
                             "y": 107,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "0c5103da33853392",
-                            "date": 1990
+                            "targetId": "a2fab6b501132a63",
+                            "date": 1984
                         },
                         {
-                            "title": "Miles Da7",
-                            "x": -11,
-                            "y": 110,
+                            "title": "Miles Da",
+                            "x": -19,
+                            "y": 109,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
+                            "targetId": "3ffe37fd291d1bcc",
                             "date": 1994
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": -63,
+                            "y": 91,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "8c44a90e2af0868c",
+                            "date": 1998
                         }
                     ]
                 },
@@ -827,39 +692,30 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -77,
-                            "y": -77,
+                            "title": "Before J",
+                            "x": -87,
+                            "y": -66,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "The Blue1",
-                            "x": -106,
-                            "y": -28,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
-                        },
-                        {
-                            "title": "Miles Da2",
-                            "x": -106,
-                            "y": 29,
+                            "title": "Paul Buf",
+                            "x": -110,
+                            "y": 1,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "e65492745478a354",
+                            "targetId": "e315fa846b9bd102",
                             "date": 1944
                         },
                         {
-                            "title": "The Stra3",
-                            "x": -77,
-                            "y": 78,
+                            "title": "The Swin",
+                            "x": -87,
+                            "y": 67,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "aefeac56fcbb5570",
+                            "targetId": "2af423f6cab21af2",
                             "date": 1954
                         }
                     ]
@@ -887,7 +743,7 @@
             "size": 7,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "3d0011a2e4a233b0",
+            "id": "ae590fccffecbb1b",
             "person": true,
             "intro": false,
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fy.yarn.co%2F46d3497c-75ea-4b52-9e87-883593080a3b_screenshot.jpg&f=1&nofb=1&ipt=ba1b9e2e60eb2900d145a84e0ff1aaace10fff78917d70e0bb651ff3838b0538",
@@ -895,58 +751,40 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "50 87",
+                    "endPoint": "50 -86",
                     "relationships": [
                         {
-                            "title": "CannonBa0",
-                            "x": 78,
-                            "y": -77,
+                            "title": "Theloniu",
+                            "x": 47,
+                            "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "12dec8d62ebc0ef5",
-                            "date": 1963
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
                         },
                         {
-                            "title": "Miles Da1",
-                            "x": 107,
-                            "y": -28,
+                            "title": "Benny Hi",
+                            "x": 64,
+                            "y": -90,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        },
-                        {
-                            "title": "Miles Da2",
-                            "x": 107,
-                            "y": 29,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        },
-                        {
-                            "title": "Blanket 3",
-                            "x": 78,
-                            "y": 78,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
+                            "targetId": "57e8d19211e3e05b",
+                            "date": 1972
                         }
                     ]
                 },
                 {
-                    "startPoint": "1 100",
-                    "endPoint": "-34 94",
+                    "startPoint": "77 65",
+                    "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Swing0",
-                            "x": -46,
+                            "title": "Paul Buf",
+                            "x": 47,
                             "y": 100,
-                            "dx": -15,
+                            "dx": 0,
                             "dy": 4,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
+                            "targetId": "8c44a90e2af0868c",
+                            "date": 1998
                         }
                     ]
                 }
@@ -973,7 +811,7 @@
             "size": 7,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "6824a3cbc6db7614",
+            "id": "c1446b8005582b7f",
             "person": false,
             "intro": false,
             "image": false,
@@ -981,34 +819,40 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "65 -76",
+                    "endPoint": "35 -93",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
+                            "title": "Benny Hi",
                             "x": 47,
                             "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
+                            "targetId": "57e8d19211e3e05b",
+                            "date": 1972
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "100 -6",
+                    "endPoint": "90 44",
+                    "relationships": [
+                        {
+                            "title": "A Darker",
+                            "x": 103,
+                            "y": 40,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
                         },
                         {
-                            "title": "Paul Buf1",
-                            "x": 64,
-                            "y": -90,
+                            "title": "The Jazz",
+                            "x": 95,
+                            "y": 57,
                             "dx": 0,
-                            "dy": 0,
-                            "targetId": "ec0f771125afa74c",
-                            "date": 1970
-                        },
-                        {
-                            "title": "The Smoo2",
-                            "x": 78,
-                            "y": -77,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
+                            "dy": 4,
+                            "targetId": "86da12a5692a812d",
+                            "date": 1981
                         }
                     ]
                 },
@@ -1017,13 +861,13 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Blanket 0",
+                            "title": "Miles Da",
                             "x": 47,
                             "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
+                            "targetId": "a2fab6b501132a63",
+                            "date": 1984
                         }
                     ]
                 },
@@ -1032,40 +876,40 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
+                            "title": "Before J",
                             "x": -77,
                             "y": -77,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "The Blue1",
+                            "title": "The Stra",
                             "x": -106,
                             "y": -28,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
+                            "targetId": "2781fd774f601634",
+                            "date": 1954
                         },
                         {
-                            "title": "Paul Buf2",
+                            "title": "Buddy Bo",
                             "x": -106,
                             "y": 29,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "41812f05978ddd42",
-                            "date": 1944
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
                         },
                         {
-                            "title": "Swing3",
+                            "title": "Paul Buf",
                             "x": -77,
                             "y": 78,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
                         }
                     ]
                 }
@@ -1083,7 +927,7 @@
             "size": 7,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "12dec8d62ebc0ef5",
+            "id": "1a257c8581350f05",
             "person": true,
             "intro": false,
             "image": 0,
@@ -1091,112 +935,55 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "50 87",
+                    "endPoint": "50 -86",
                     "relationships": [
                         {
-                            "title": "Theloniu0",
-                            "x": 65,
-                            "y": -88,
+                            "title": "Paul Buf",
+                            "x": 47,
+                            "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
-                        },
-                        {
-                            "title": "Duke Ell1",
-                            "x": 94,
-                            "y": -58,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "4c4c21a3feaa2a9c",
+                            "targetId": "27b1f59c715bbf22",
                             "date": 1970
                         },
                         {
-                            "title": "Marlena 2",
-                            "x": 108,
-                            "y": -20,
+                            "title": "Marlena ",
+                            "x": 64,
+                            "y": -90,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "480180a5a6f6e1cc",
+                            "targetId": "d971b0ca3df2ad45",
                             "date": 1971
-                        },
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "77 65",
+                    "endPoint": "50 87",
+                    "relationships": [
                         {
-                            "title": "Benny Hi3",
-                            "x": 108,
-                            "y": 21,
+                            "title": "Blanket ",
+                            "x": 47,
+                            "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "6758f405beb01567",
-                            "date": 1972
-                        },
-                        {
-                            "title": "The Jazz4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
-                        },
-                        {
-                            "title": "Miles Da5",
-                            "x": 65,
-                            "y": 89,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        },
-                        {
-                            "title": "Miles Da6",
-                            "x": 29,
-                            "y": 107,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
+                            "targetId": "148819401402e30c",
+                            "date": 1995
                         }
                     ]
                 },
                 {
                     "startPoint": "1 100",
-                    "endPoint": "-50 -86",
+                    "endPoint": "-34 94",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -77,
-                            "y": -77,
+                            "title": "The Stra",
+                            "x": -46,
+                            "y": 100,
                             "dx": -15,
-                            "dy": 0,
-                            "targetId": "6286fdd50488c001",
-                            "date": 1936
-                        },
-                        {
-                            "title": "The Stra1",
-                            "x": -106,
-                            "y": -28,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "aefeac56fcbb5570",
+                            "dy": 4,
+                            "targetId": "2781fd774f601634",
                             "date": 1954
-                        },
-                        {
-                            "title": "Paul Buf2",
-                            "x": -106,
-                            "y": 29,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "3d0011a2e4a233b0",
-                            "date": 1955
-                        },
-                        {
-                            "title": "Paul Buf3",
-                            "x": -77,
-                            "y": 78,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
                         }
                     ]
                 }
@@ -1223,7 +1010,7 @@
             "size": 3,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "c0932978847489ad",
+            "id": "cd9519fe32fe11d3",
             "person": true,
             "intro": false,
             "image": 0,
@@ -1231,64 +1018,61 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "50 -86",
-                    "relationships": [
-                        {
-                            "title": "Marlena 0",
-                            "x": 47,
-                            "y": -99,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "480180a5a6f6e1cc",
-                            "date": 1971
-                        },
-                        {
-                            "title": "The Smoo1",
-                            "x": 64,
-                            "y": -90,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "88 -48",
-                    "endPoint": "100 2",
-                    "relationships": [
-                        {
-                            "title": "A Darker0",
-                            "x": 110,
-                            "y": -7,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "2b935f3bb7e4c4f8",
-                            "date": 1980
-                        },
-                        {
-                            "title": "The Jazz1",
-                            "x": 110,
-                            "y": 12,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "77 65",
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Bitch's 0",
-                            "x": 47,
-                            "y": 100,
+                            "title": "Paul Buf",
+                            "x": 78,
+                            "y": -77,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "00294dae81c7effb",
+                            "date": 1970
+                        },
+                        {
+                            "title": "A Darker",
+                            "x": 107,
+                            "y": -28,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
+                        },
+                        {
+                            "title": "The Jazz",
+                            "x": 107,
+                            "y": 29,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "0c5103da33853392",
+                            "targetId": "86da12a5692a812d",
+                            "date": 1981
+                        },
+                        {
+                            "title": "Bitch's ",
+                            "x": 78,
+                            "y": 78,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "3044c0fa1e2b5087",
                             "date": 1990
+                        },
+                        {
+                            "title": "Miles Da",
+                            "x": 29,
+                            "y": 107,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "3ffe37fd291d1bcc",
+                            "date": 1994
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": -28,
+                            "y": 107,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "8c44a90e2af0868c",
+                            "date": 1998
                         }
                     ]
                 },
@@ -1297,57 +1081,48 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Miles Da0",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Swing",
+                            "x": -77,
+                            "y": -77,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e65492745478a354",
+                            "targetId": "3beedc1208cd217a",
                             "date": 1944
                         },
                         {
-                            "title": "Paul Buf1",
-                            "x": -93,
-                            "y": -58,
+                            "title": "Title 1",
+                            "x": -106,
+                            "y": -28,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "41812f05978ddd42",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Swing2",
-                            "x": -107,
-                            "y": -20,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Title 13",
-                            "x": -107,
-                            "y": 21,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "f4b4f83d39c054b4",
+                            "targetId": "1b45137bae971bf8",
                             "date": 1950
                         },
                         {
-                            "title": "The Swin4",
-                            "x": -93,
-                            "y": 59,
+                            "title": "The Swin",
+                            "x": -106,
+                            "y": 29,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "419de9238779b968",
+                            "targetId": "2af423f6cab21af2",
                             "date": 1954
                         },
                         {
-                            "title": "CannonBa5",
-                            "x": -64,
-                            "y": 89,
+                            "title": "Paul Buf",
+                            "x": -77,
+                            "y": 78,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "12dec8d62ebc0ef5",
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
+                        },
+                        {
+                            "title": "CannonBa",
+                            "x": -28,
+                            "y": 107,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "1a257c8581350f05",
                             "date": 1963
                         }
                     ]
@@ -1375,7 +1150,7 @@
             "size": 3,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "30f82627a5267191",
+            "id": "415ddcbf356a72e7",
             "person": true,
             "intro": false,
             "image": 0,
@@ -1386,58 +1161,49 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
-                            "x": 65,
-                            "y": -88,
+                            "title": "Paul Buf",
+                            "x": 78,
+                            "y": -77,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "a4e78f8cea259eb2",
+                            "targetId": "00294dae81c7effb",
                             "date": 1970
                         },
                         {
-                            "title": "Paul Buf1",
-                            "x": 94,
-                            "y": -58,
+                            "title": "A Darker",
+                            "x": 107,
+                            "y": -28,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "ec0f771125afa74c",
-                            "date": 1970
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
                         },
                         {
-                            "title": "Marlena 2",
-                            "x": 108,
-                            "y": -20,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "480180a5a6f6e1cc",
-                            "date": 1971
-                        },
-                        {
-                            "title": "The Smoo3",
-                            "x": 108,
-                            "y": 21,
+                            "title": "The Jazz",
+                            "x": 107,
+                            "y": 29,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        },
-                        {
-                            "title": "The Jazz4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3af40d119807c006",
+                            "targetId": "86da12a5692a812d",
                             "date": 1981
                         },
                         {
-                            "title": "Miles Da5",
-                            "x": 65,
-                            "y": 89,
+                            "title": "Miles Da",
+                            "x": 78,
+                            "y": 78,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
+                            "targetId": "3ffe37fd291d1bcc",
                             "date": 1994
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": 29,
+                            "y": 107,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "8c44a90e2af0868c",
+                            "date": 1998
                         }
                     ]
                 },
@@ -1446,58 +1212,49 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Before J",
+                            "x": -77,
+                            "y": -77,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "The Blue1",
-                            "x": -93,
-                            "y": -58,
+                            "title": "Paul Buf",
+                            "x": -106,
+                            "y": -28,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
+                            "targetId": "e315fa846b9bd102",
+                            "date": 1944
                         },
                         {
-                            "title": "The Swin2",
-                            "x": -107,
-                            "y": -20,
+                            "title": "Title 1",
+                            "x": -106,
+                            "y": 29,
                             "dx": -15,
-                            "dy": 0,
-                            "targetId": "419de9238779b968",
+                            "dy": 4,
+                            "targetId": "1b45137bae971bf8",
+                            "date": 1950
+                        },
+                        {
+                            "title": "The Stra",
+                            "x": -77,
+                            "y": 78,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "2781fd774f601634",
                             "date": 1954
                         },
                         {
-                            "title": "Paul Buf3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Buddy Bo",
+                            "x": -28,
+                            "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
-                        },
-                        {
-                            "title": "CannonBa4",
-                            "x": -93,
-                            "y": 59,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "12dec8d62ebc0ef5",
-                            "date": 1963
-                        },
-                        {
-                            "title": "Theloniu5",
-                            "x": -64,
-                            "y": 89,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
                         }
                     ]
                 }
@@ -1524,7 +1281,7 @@
             "size": 5,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "4c4c21a3feaa2a9c",
+            "id": "619e6f1899697f74",
             "person": false,
             "intro": false,
             "image": false,
@@ -1532,31 +1289,82 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "35 -93",
+                    "endPoint": "50 -86",
                     "relationships": [
                         {
-                            "title": "The Jazz0",
+                            "title": "Paul Buf",
                             "x": 47,
                             "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
+                            "targetId": "27b1f59c715bbf22",
+                            "date": 1970
+                        },
+                        {
+                            "title": "Marlena ",
+                            "x": 64,
+                            "y": -90,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "77 65",
+                    "endPoint": "50 87",
+                    "relationships": [
+                        {
+                            "title": "Miles Da",
+                            "x": 47,
+                            "y": 100,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "a2fab6b501132a63",
+                            "date": 1984
                         }
                     ]
                 },
                 {
                     "startPoint": "1 100",
-                    "endPoint": "-34 94",
+                    "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Title 10",
-                            "x": -46,
-                            "y": 100,
+                            "title": "The Blue",
+                            "x": -77,
+                            "y": -77,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "cb5963970b819c25",
+                            "date": 1936
+                        },
+                        {
+                            "title": "Swing",
+                            "x": -106,
+                            "y": -28,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "3beedc1208cd217a",
+                            "date": 1944
+                        },
+                        {
+                            "title": "Buddy Bo",
+                            "x": -106,
+                            "y": 29,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "f4b4f83d39c054b4",
-                            "date": 1950
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
+                        },
+                        {
+                            "title": "Art Farm",
+                            "x": -77,
+                            "y": 78,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "415ddcbf356a72e7",
+                            "date": 1969
                         }
                     ]
                 }
@@ -1574,7 +1382,7 @@
             "size": 7,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "a4e78f8cea259eb2",
+            "id": "27b1f59c715bbf22",
             "person": false,
             "intro": "A short intro for Paul",
             "image": false,
@@ -1582,46 +1390,79 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "35 -93",
-                    "relationships": [
-                        {
-                            "title": "Marlena 0",
-                            "x": 47,
-                            "y": -99,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "480180a5a6f6e1cc",
-                            "date": 1971
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "89 -46",
-                    "endPoint": "100 -13",
-                    "relationships": [
-                        {
-                            "title": "Miles Da0",
-                            "x": 110,
-                            "y": -5,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "77 65",
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
-                            "x": 47,
-                            "y": 100,
+                            "title": "Marlena ",
+                            "x": 65,
+                            "y": -88,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
+                        },
+                        {
+                            "title": "The Smoo",
+                            "x": 94,
+                            "y": -58,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "70adeec90e87803d",
+                            "date": 1974
+                        },
+                        {
+                            "title": "A Darker",
+                            "x": 108,
+                            "y": -20,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
+                        },
+                        {
+                            "title": "The Jazz",
+                            "x": 108,
+                            "y": 21,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
-                            "date": 1998
+                            "targetId": "86da12a5692a812d",
+                            "date": 1981
+                        },
+                        {
+                            "title": "Miles Da",
+                            "x": 94,
+                            "y": 59,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "a2fab6b501132a63",
+                            "date": 1984
+                        },
+                        {
+                            "title": "Bitch's ",
+                            "x": 65,
+                            "y": 89,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "3044c0fa1e2b5087",
+                            "date": 1990
+                        },
+                        {
+                            "title": "Miles Da",
+                            "x": 29,
+                            "y": 107,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "3ffe37fd291d1bcc",
+                            "date": 1994
+                        },
+                        {
+                            "title": "Blanket ",
+                            "x": -11,
+                            "y": 110,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "148819401402e30c",
+                            "date": 1995
                         }
                     ]
                 },
@@ -1630,30 +1471,39 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
-                            "x": -87,
-                            "y": -66,
+                            "title": "The Blue",
+                            "x": -77,
+                            "y": -77,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "41812f05978ddd42",
+                            "targetId": "cb5963970b819c25",
+                            "date": 1936
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": -106,
+                            "y": -28,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "e315fa846b9bd102",
                             "date": 1944
                         },
                         {
-                            "title": "Art Farm1",
-                            "x": -110,
-                            "y": 1,
+                            "title": "Art Farm",
+                            "x": -106,
+                            "y": 29,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "30f82627a5267191",
+                            "targetId": "415ddcbf356a72e7",
                             "date": 1969
                         },
                         {
-                            "title": "Paul Buf2",
-                            "x": -87,
-                            "y": 67,
+                            "title": "Paul Buf",
+                            "x": -77,
+                            "y": 78,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "ec0f771125afa74c",
+                            "targetId": "00294dae81c7effb",
                             "date": 1970
                         }
                     ]
@@ -1672,7 +1522,7 @@
             "size": 5,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "ec0f771125afa74c",
+            "id": "00294dae81c7effb",
             "person": true,
             "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam et elit nec condimentum. Morbi sit amet felis dolor. Vestibulum molestie eleifend iaculis. Ut augue augue, varius id aliquet ac, vehicula sit amet purus. Nullam quis ex dictum purus fringilla pretium in in justo. Cras nec metus ligula. Aenean nec luctus lorem, sit amet aliquet ligula. Pellentesque vestibulum vitae neque ultricies gravida. Nam faucibus blandit lectus, eu lobortis tellus fringilla sit amet. Duis auctor cursus est, nec eleifend lacus ullamcorper vel. In varius congue lorem, vitae maximus mi faucibus a. Pellentesque efficitur pellentesque magna in pulvinar. Morbi viverra ultrices sapien, quis placerat diam tincidunt non.",
             "image": 0,
@@ -1683,67 +1533,58 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "The Smoo0",
-                            "x": 65,
-                            "y": -88,
+                            "title": "Benny Hi",
+                            "x": 71,
+                            "y": -84,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "a0ce20aef400e6e8",
+                            "targetId": "57e8d19211e3e05b",
+                            "date": 1972
+                        },
+                        {
+                            "title": "The Smoo",
+                            "x": 100,
+                            "y": -46,
+                            "dx": 0,
+                            "dy": 0,
+                            "targetId": "70adeec90e87803d",
                             "date": 1974
                         },
                         {
-                            "title": "A Darker1",
-                            "x": 94,
-                            "y": -58,
+                            "title": "A Darker",
+                            "x": 110,
+                            "y": 0,
                             "dx": 0,
-                            "dy": 0,
-                            "targetId": "2b935f3bb7e4c4f8",
+                            "dy": 4,
+                            "targetId": "dac99b44c9501a4a",
                             "date": 1980
                         },
                         {
-                            "title": "A Bright2",
-                            "x": 108,
-                            "y": -20,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "be0da7f56449ed1b",
-                            "date": 1981
-                        },
-                        {
-                            "title": "The Jazz3",
-                            "x": 108,
-                            "y": 21,
+                            "title": "Miles Da",
+                            "x": 100,
+                            "y": 47,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
-                        },
-                        {
-                            "title": "Bitch's 4",
-                            "x": 94,
-                            "y": 59,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "0c5103da33853392",
-                            "date": 1990
-                        },
-                        {
-                            "title": "Miles Da5",
-                            "x": 65,
-                            "y": 89,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
+                            "targetId": "3ffe37fd291d1bcc",
                             "date": 1994
                         },
                         {
-                            "title": "Blanket 6",
+                            "title": "Blanket ",
+                            "x": 71,
+                            "y": 85,
+                            "dx": 0,
+                            "dy": 4,
+                            "targetId": "148819401402e30c",
+                            "date": 1995
+                        },
+                        {
+                            "title": "Paul Buf",
                             "x": 29,
                             "y": 107,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
+                            "targetId": "8c44a90e2af0868c",
+                            "date": 1998
                         }
                     ]
                 },
@@ -1752,75 +1593,84 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Before J",
+                            "x": -70,
+                            "y": -84,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "The Blue1",
-                            "x": -93,
-                            "y": -58,
+                            "title": "The Blue",
+                            "x": -99,
+                            "y": -46,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
+                            "targetId": "cb5963970b819c25",
                             "date": 1936
                         },
                         {
-                            "title": "Miles Da2",
-                            "x": -107,
-                            "y": -20,
+                            "title": "Paul Buf",
+                            "x": -110,
+                            "y": 1,
                             "dx": -15,
-                            "dy": 0,
-                            "targetId": "e65492745478a354",
+                            "dy": 4,
+                            "targetId": "e315fa846b9bd102",
                             "date": 1944
                         },
                         {
-                            "title": "Paul Buf3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Swing",
+                            "x": -99,
+                            "y": 47,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "41812f05978ddd42",
+                            "targetId": "3beedc1208cd217a",
                             "date": 1944
                         },
                         {
-                            "title": "Swing4",
-                            "x": -93,
-                            "y": 59,
+                            "title": "The Swin",
+                            "x": -70,
+                            "y": 85,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
+                            "targetId": "2af423f6cab21af2",
+                            "date": 1954
                         },
                         {
-                            "title": "Title 15",
-                            "x": -64,
-                            "y": 89,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "f4b4f83d39c054b4",
-                            "date": 1950
-                        },
-                        {
-                            "title": "Duke Ell6",
+                            "title": "The Stra",
                             "x": -28,
                             "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "4c4c21a3feaa2a9c",
-                            "date": 1970
+                            "targetId": "2781fd774f601634",
+                            "date": 1954
                         },
                         {
-                            "title": "Paul Buf7",
-                            "x": 12,
-                            "y": 110,
+                            "title": "Buddy Bo",
+                            "x": 20,
+                            "y": 109,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
+                        },
+                        {
+                            "title": "Theloniu",
+                            "x": 64,
+                            "y": 91,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": 96,
+                            "y": 55,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "27b1f59c715bbf22",
                             "date": 1970
                         }
                     ]
@@ -1848,7 +1698,7 @@
             "size": 5,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "480180a5a6f6e1cc",
+            "id": "d971b0ca3df2ad45",
             "person": true,
             "intro": false,
             "image": 0,
@@ -1856,43 +1706,40 @@
             "relationshipGroups": [
                 {
                     "startPoint": "0 -100",
-                    "endPoint": "50 87",
+                    "endPoint": "50 -86",
                     "relationships": [
                         {
-                            "title": "The Smoo0",
-                            "x": 78,
-                            "y": -77,
+                            "title": "The Jazz",
+                            "x": 47,
+                            "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        },
-                        {
-                            "title": "The Jazz1",
-                            "x": 107,
-                            "y": -28,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "3af40d119807c006",
+                            "targetId": "86da12a5692a812d",
                             "date": 1981
                         },
                         {
-                            "title": "Miles Da2",
-                            "x": 107,
-                            "y": 29,
+                            "title": "A Bright",
+                            "x": 64,
+                            "y": -90,
                             "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        },
+                            "dy": 0,
+                            "targetId": "4f60c128915fc120",
+                            "date": 1981
+                        }
+                    ]
+                },
+                {
+                    "startPoint": "77 65",
+                    "endPoint": "50 87",
+                    "relationships": [
                         {
-                            "title": "Paul Buf3",
-                            "x": 78,
-                            "y": 78,
+                            "title": "Miles Da",
+                            "x": 47,
+                            "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
-                            "date": 1998
+                            "targetId": "3ffe37fd291d1bcc",
+                            "date": 1994
                         }
                     ]
                 },
@@ -1901,66 +1748,93 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Miles Da",
+                            "x": -70,
+                            "y": -84,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
-                            "date": 1936
-                        },
-                        {
-                            "title": "Paul Buf1",
-                            "x": -93,
-                            "y": -58,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "41812f05978ddd42",
+                            "targetId": "ad96aae16ecd2c9d",
                             "date": 1944
                         },
                         {
-                            "title": "Paul Buf2",
-                            "x": -107,
-                            "y": -20,
+                            "title": "Paul Buf",
+                            "x": -99,
+                            "y": -46,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "3d0011a2e4a233b0",
-                            "date": 1955
+                            "targetId": "e315fa846b9bd102",
+                            "date": 1944
                         },
                         {
-                            "title": "Paul Buf3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Swing",
+                            "x": -110,
+                            "y": 1,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
+                            "targetId": "3beedc1208cd217a",
+                            "date": 1944
                         },
                         {
-                            "title": "Theloniu4",
-                            "x": -93,
-                            "y": 59,
+                            "title": "The Swin",
+                            "x": -99,
+                            "y": 47,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
+                            "targetId": "2af423f6cab21af2",
+                            "date": 1954
                         },
                         {
-                            "title": "Art Farm5",
-                            "x": -64,
-                            "y": 89,
+                            "title": "Buddy Bo",
+                            "x": -70,
+                            "y": 85,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "30f82627a5267191",
-                            "date": 1969
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
                         },
                         {
-                            "title": "Paul Buf6",
+                            "title": "Paul Buf",
                             "x": -28,
                             "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "ec0f771125afa74c",
+                            "targetId": "c1446b8005582b7f",
+                            "date": 1955
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": 20,
+                            "y": 109,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
+                        },
+                        {
+                            "title": "Theloniu",
+                            "x": 64,
+                            "y": 91,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
+                        },
+                        {
+                            "title": "Duke Ell",
+                            "x": 96,
+                            "y": 55,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "619e6f1899697f74",
+                            "date": 1970
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": 110,
+                            "y": 10,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "00294dae81c7effb",
                             "date": 1970
                         }
                     ]
@@ -1988,7 +1862,7 @@
             "size": 7,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "6758f405beb01567",
+            "id": "57e8d19211e3e05b",
             "person": false,
             "intro": "Benny's Band",
             "image": false,
@@ -1999,28 +1873,13 @@
                     "endPoint": "35 -93",
                     "relationships": [
                         {
-                            "title": "The Smoo0",
+                            "title": "A Darker",
                             "x": 47,
                             "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "61 -79",
-                    "endPoint": "84 -54",
-                    "relationships": [
-                        {
-                            "title": "The Jazz0",
-                            "x": 98,
-                            "y": -51,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
                         }
                     ]
                 },
@@ -2029,109 +1888,28 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
+                            "title": "The Jazz",
                             "x": 47,
                             "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
-                            "date": 1998
+                            "targetId": "86da12a5692a812d",
+                            "date": 1981
                         }
                     ]
                 },
                 {
                     "startPoint": "1 100",
-                    "endPoint": "-50 -86",
+                    "endPoint": "-34 94",
                     "relationships": [
                         {
-                            "title": "Miles Da0",
-                            "x": -64,
-                            "y": -88,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "e65492745478a354",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Paul Buf1",
-                            "x": -93,
-                            "y": -58,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "41812f05978ddd42",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Swing2",
-                            "x": -107,
-                            "y": -20,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
-                        },
-                        {
-                            "title": "The Swin3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Paul Buf",
+                            "x": -46,
+                            "y": 100,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "419de9238779b968",
-                            "date": 1954
-                        },
-                        {
-                            "title": "The Stra4",
-                            "x": -93,
-                            "y": 59,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "aefeac56fcbb5570",
-                            "date": 1954
-                        },
-                        {
-                            "title": "Paul Buf5",
-                            "x": -64,
-                            "y": 89,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
+                            "targetId": "ae590fccffecbb1b",
                             "date": 1955
-                        },
-                        {
-                            "title": "CannonBa6",
-                            "x": -28,
-                            "y": 107,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "12dec8d62ebc0ef5",
-                            "date": 1963
-                        },
-                        {
-                            "title": "Theloniu7",
-                            "x": 12,
-                            "y": 110,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
-                        },
-                        {
-                            "title": "Paul Buf8",
-                            "x": 52,
-                            "y": 98,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
-                        },
-                        {
-                            "title": "Marlena 9",
-                            "x": 84,
-                            "y": 73,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "480180a5a6f6e1cc",
-                            "date": 1971
                         }
                     ]
                 }
@@ -2149,7 +1927,7 @@
             "size": 5,
             "bgColor": "bg-[#459db97F]",
             "borderColor": "border-[#459db9]",
-            "id": "a0ce20aef400e6e8",
+            "id": "70adeec90e87803d",
             "person": false,
             "intro": "Having evolved out of the music of marching bands and ragtime, much of the music heard in this earlier period of jazz has similar instrumentation (drums, trumpets, trombone, sax etc) and feel. Also the influence of Afro Latin rhythms from places such as Cuba can be heard (from music as far back as the 1880's). The tresillo rhythm is heavily used in the New Orleans Jazz of this time and can be directly linked to the music of the Caribbean. Dixieland bands played rag style music but also incorporated collective and solo improvisation within their performances which was something that hadn't been done before in traditional marching,ragtime or vaudeville bands. In Chicago, a different more soulful and vocal oriented jazz developed with artists such as Louis Armstrong, who played trumpet and popularized the use of scat singing. During the 1920s and prohibition, Jazz existed in the darker parts of society in brothels and speakeasies and was heavily racially segregated. Some notable artists of this time are Jellyroll Morton, Louis Armstrong and Buddy Bolden.",
             "image": "https://external-content.duckduckgo.com/iu/?u=http%3A%2F%2F4.bp.blogspot.com%2F-hXo9FERfTQo%2FUp0rxgpNsNI%2FAAAAAAAAogQ%2FPnrQeETkXOE%2Fs1600%2Fbobby_caldwell_cd-front.jpg&f=1&nofb=1&ipt=f165614561dbd65da3c0bc14c728cf1dd474bf6e43cac1426ede5d452c52090c",
@@ -2168,7 +1946,7 @@
             "size": 3,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "2b935f3bb7e4c4f8",
+            "id": "dac99b44c9501a4a",
             "person": false,
             "intro": false,
             "image": false,
@@ -2179,43 +1957,28 @@
                     "endPoint": "35 -93",
                     "relationships": [
                         {
-                            "title": "The Jazz0",
+                            "title": "Bitch's ",
                             "x": 47,
                             "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "93 -37",
-                    "endPoint": "100 -3",
-                    "relationships": [
-                        {
-                            "title": "Bitch's 0",
-                            "x": 110,
-                            "y": 6,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "0c5103da33853392",
+                            "targetId": "3044c0fa1e2b5087",
                             "date": 1990
                         }
                     ]
                 },
                 {
-                    "startPoint": "96 30",
-                    "endPoint": "80 61",
+                    "startPoint": "98 25",
+                    "endPoint": "83 56",
                     "relationships": [
                         {
-                            "title": "Blanket 0",
-                            "x": 82,
-                            "y": 74,
+                            "title": "Miles Da",
+                            "x": 86,
+                            "y": 70,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
+                            "targetId": "3ffe37fd291d1bcc",
+                            "date": 1994
                         }
                     ]
                 },
@@ -2224,13 +1987,13 @@
                     "endPoint": "50 87",
                     "relationships": [
                         {
-                            "title": "Paul Buf0",
+                            "title": "Blanket ",
                             "x": 47,
                             "y": 100,
                             "dx": 0,
                             "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
-                            "date": 1998
+                            "targetId": "148819401402e30c",
+                            "date": 1995
                         }
                     ]
                 },
@@ -2239,84 +2002,66 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Miles Da",
+                            "x": -77,
+                            "y": -77,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6286fdd50488c001",
-                            "date": 1936
-                        },
-                        {
-                            "title": "The Blue1",
-                            "x": -93,
-                            "y": -58,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
-                        },
-                        {
-                            "title": "Paul Buf2",
-                            "x": -107,
-                            "y": -20,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "41812f05978ddd42",
+                            "targetId": "ad96aae16ecd2c9d",
                             "date": 1944
                         },
                         {
-                            "title": "The Swin3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Paul Buf",
+                            "x": -106,
+                            "y": -28,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "e315fa846b9bd102",
+                            "date": 1944
+                        },
+                        {
+                            "title": "The Stra",
+                            "x": -106,
+                            "y": 29,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "419de9238779b968",
+                            "targetId": "2781fd774f601634",
                             "date": 1954
                         },
                         {
-                            "title": "Paul Buf4",
-                            "x": -93,
-                            "y": 59,
+                            "title": "Art Farm",
+                            "x": -77,
+                            "y": 78,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
-                        },
-                        {
-                            "title": "Theloniu5",
-                            "x": -64,
-                            "y": 89,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "c0932978847489ad",
+                            "targetId": "415ddcbf356a72e7",
                             "date": 1969
                         },
                         {
-                            "title": "Art Farm6",
+                            "title": "Duke Ell",
                             "x": -28,
                             "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "30f82627a5267191",
-                            "date": 1969
-                        },
-                        {
-                            "title": "Paul Buf7",
-                            "x": 12,
-                            "y": 110,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "ec0f771125afa74c",
+                            "targetId": "619e6f1899697f74",
                             "date": 1970
                         },
                         {
-                            "title": "Benny Hi8",
-                            "x": 52,
-                            "y": 98,
+                            "title": "Marlena ",
+                            "x": 29,
+                            "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "6758f405beb01567",
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
+                        },
+                        {
+                            "title": "Benny Hi",
+                            "x": 78,
+                            "y": 78,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "57e8d19211e3e05b",
                             "date": 1972
                         }
                     ]
@@ -2335,147 +2080,24 @@
             "size": 3,
             "bgColor": "bg-[#459db97F]",
             "borderColor": "border-[#459db9]",
-            "id": "be0da7f56449ed1b",
+            "id": "4f60c128915fc120",
             "person": false,
             "intro": false,
             "image": false,
             "bgImage": false,
             "relationshipGroups": [
                 {
-                    "startPoint": "0 -100",
-                    "endPoint": "35 -93",
-                    "relationships": [
-                        {
-                            "title": "Miles Da0",
-                            "x": 47,
-                            "y": -99,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "82 -57",
-                    "endPoint": "97 -25",
-                    "relationships": [
-                        {
-                            "title": "Bitch's 0",
-                            "x": 109,
-                            "y": -19,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "0c5103da33853392",
-                            "date": 1990
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "100 4",
-                    "endPoint": "85 53",
-                    "relationships": [
-                        {
-                            "title": "Miles Da0",
-                            "x": 99,
-                            "y": 50,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        },
-                        {
-                            "title": "Blanket 1",
-                            "x": 88,
-                            "y": 67,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "77 65",
-                    "endPoint": "50 87",
-                    "relationships": [
-                        {
-                            "title": "Paul Buf0",
-                            "x": 47,
-                            "y": 100,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
-                            "date": 1998
-                        }
-                    ]
-                },
-                {
                     "startPoint": "1 100",
-                    "endPoint": "-50 -86",
+                    "endPoint": "-34 94",
                     "relationships": [
                         {
-                            "title": "Before J0",
-                            "x": -64,
-                            "y": -88,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "6286fdd50488c001",
-                            "date": 1936
-                        },
-                        {
-                            "title": "The Blue1",
-                            "x": -93,
-                            "y": -58,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
-                            "date": 1936
-                        },
-                        {
-                            "title": "Swing2",
-                            "x": -107,
-                            "y": -20,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
-                        },
-                        {
-                            "title": "Buddy Bo3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Marlena ",
+                            "x": -46,
+                            "y": 100,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "2b41a4b80c019817",
-                            "date": 1954
-                        },
-                        {
-                            "title": "CannonBa4",
-                            "x": -93,
-                            "y": 59,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "12dec8d62ebc0ef5",
-                            "date": 1963
-                        },
-                        {
-                            "title": "Paul Buf5",
-                            "x": -64,
-                            "y": 89,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
-                        },
-                        {
-                            "title": "The Jazz6",
-                            "x": -28,
-                            "y": 107,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
                         }
                     ]
                 }
@@ -2493,7 +2115,7 @@
             "size": 5,
             "bgColor": "bg-[#9b18187F]",
             "borderColor": "border-[#9b1818]",
-            "id": "3af40d119807c006",
+            "id": "86da12a5692a812d",
             "person": false,
             "intro": "Jazz fusion (also known as jazz rock, jazz-rock fusion, or simply fusion) is a popular music genre that developed in the late 1960s when musicians combined jazz harmony and improvisation with rock music, funk, and rhythm and blues. Electric guitars, amplifiers, and keyboards that were popular in rock began to be used by jazz musicians, particularly those who had grown up listening to rock and roll.",
             "image": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fstatic.spin.com%2Ffiles%2F2019%2F09%2FGettyImages-84843312-1569691641.jpg&f=1&nofb=1&ipt=3e82a0b24fae8f0d6c940038dbf661e4f8877b07d5e2f5d13ee1432a03fad84f",
@@ -2512,7 +2134,7 @@
             "size": 7,
             "bgColor": "bg-[#7c45b97F]",
             "borderColor": "border-[#7c45b9]",
-            "id": "cb2678cbe6276a9d",
+            "id": "a2fab6b501132a63",
             "person": true,
             "intro": "son of Miles Davis",
             "image": 0,
@@ -2523,43 +2145,13 @@
                     "endPoint": "35 -93",
                     "relationships": [
                         {
-                            "title": "Bitch's 0",
+                            "title": "Bitch's ",
                             "x": 47,
                             "y": -99,
                             "dx": 0,
                             "dy": 0,
-                            "targetId": "0c5103da33853392",
+                            "targetId": "3044c0fa1e2b5087",
                             "date": 1990
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "98 25",
-                    "endPoint": "83 56",
-                    "relationships": [
-                        {
-                            "title": "Miles Da0",
-                            "x": 86,
-                            "y": 70,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "77 65",
-                    "endPoint": "50 87",
-                    "relationships": [
-                        {
-                            "title": "Blanket 0",
-                            "x": 47,
-                            "y": 100,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
                         }
                     ]
                 },
@@ -2568,93 +2160,102 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "The Blue0",
+                            "title": "Before J",
                             "x": -64,
                             "y": -88,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "Swing1",
+                            "title": "The Blue",
                             "x": -93,
                             "y": -58,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "8c32e74a7f97ef3b",
-                            "date": 1944
+                            "targetId": "cb5963970b819c25",
+                            "date": 1936
                         },
                         {
-                            "title": "The Swin2",
+                            "title": "Swing",
                             "x": -107,
                             "y": -20,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "419de9238779b968",
-                            "date": 1954
+                            "targetId": "3beedc1208cd217a",
+                            "date": 1944
                         },
                         {
-                            "title": "Buddy Bo3",
+                            "title": "The Swin",
                             "x": -107,
                             "y": 21,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "2b41a4b80c019817",
+                            "targetId": "2af423f6cab21af2",
                             "date": 1954
                         },
                         {
-                            "title": "Theloniu4",
+                            "title": "Buddy Bo",
                             "x": -93,
                             "y": 59,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
                         },
                         {
-                            "title": "Duke Ell5",
+                            "title": "Paul Buf",
                             "x": -64,
                             "y": 89,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "4c4c21a3feaa2a9c",
-                            "date": 1970
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
                         },
                         {
-                            "title": "Paul Buf6",
+                            "title": "Theloniu",
                             "x": -28,
                             "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
                         },
                         {
-                            "title": "The Smoo7",
+                            "title": "Paul Buf",
                             "x": 12,
                             "y": 110,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
+                            "targetId": "27b1f59c715bbf22",
+                            "date": 1970
                         },
                         {
-                            "title": "A Darker8",
+                            "title": "Marlena ",
                             "x": 52,
                             "y": 98,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "2b935f3bb7e4c4f8",
-                            "date": 1980
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
                         },
                         {
-                            "title": "A Bright9",
+                            "title": "The Smoo",
                             "x": 84,
                             "y": 73,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "be0da7f56449ed1b",
+                            "targetId": "70adeec90e87803d",
+                            "date": 1974
+                        },
+                        {
+                            "title": "A Bright",
+                            "x": 105,
+                            "y": 36,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "4f60c128915fc120",
                             "date": 1981
                         }
                     ]
@@ -2682,84 +2283,123 @@
             "size": 3,
             "bgColor": "bg-[#459db97F]",
             "borderColor": "border-[#459db9]",
-            "id": "0c5103da33853392",
+            "id": "3044c0fa1e2b5087",
             "person": false,
             "intro": false,
             "image": false,
             "bgImage": false,
             "relationshipGroups": [
                 {
-                    "startPoint": "0 -100",
-                    "endPoint": "35 -93",
-                    "relationships": [
-                        {
-                            "title": "Miles Da0",
-                            "x": 47,
-                            "y": -99,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "3384fd77a8f40d3a",
-                            "date": 1994
-                        }
-                    ]
-                },
-                {
                     "startPoint": "1 100",
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "Title 10",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Miles Da",
+                            "x": -77,
+                            "y": -77,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "f4b4f83d39c054b4",
-                            "date": 1950
+                            "targetId": "ad96aae16ecd2c9d",
+                            "date": 1944
                         },
                         {
-                            "title": "Paul Buf1",
-                            "x": -93,
-                            "y": -58,
+                            "title": "Buddy Bo",
+                            "x": -106,
+                            "y": -28,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "3d0011a2e4a233b0",
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": -106,
+                            "y": 29,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "c1446b8005582b7f",
                             "date": 1955
                         },
                         {
-                            "title": "Theloniu2",
-                            "x": -107,
-                            "y": -20,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
-                        },
-                        {
-                            "title": "Paul Buf3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Paul Buf",
+                            "x": -77,
+                            "y": 78,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "ec0f771125afa74c",
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
+                        },
+                        {
+                            "title": "Duke Ell",
+                            "x": -28,
+                            "y": 107,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "619e6f1899697f74",
                             "date": 1970
                         },
                         {
-                            "title": "A Darker4",
-                            "x": -93,
-                            "y": 59,
+                            "title": "Paul Buf",
+                            "x": 29,
+                            "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "2b935f3bb7e4c4f8",
+                            "targetId": "27b1f59c715bbf22",
+                            "date": 1970
+                        },
+                        {
+                            "title": "Paul Buf",
+                            "x": 78,
+                            "y": 78,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "00294dae81c7effb",
+                            "date": 1970
+                        },
+                        {
+                            "title": "Marlena ",
+                            "x": 107,
+                            "y": 29,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "d971b0ca3df2ad45",
+                            "date": 1971
+                        },
+                        {
+                            "title": "Benny Hi",
+                            "x": 107,
+                            "y": -28,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "57e8d19211e3e05b",
+                            "date": 1972
+                        },
+                        {
+                            "title": "The Smoo",
+                            "x": 78,
+                            "y": -77,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "70adeec90e87803d",
+                            "date": 1974
+                        },
+                        {
+                            "title": "A Darker",
+                            "x": 29,
+                            "y": -106,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "dac99b44c9501a4a",
                             "date": 1980
                         },
                         {
-                            "title": "Miles Da5",
-                            "x": -64,
-                            "y": 89,
+                            "title": "The Jazz",
+                            "x": -28,
+                            "y": -106,
                             "dx": -15,
-                            "dy": 4,
-                            "targetId": "cb2678cbe6276a9d",
-                            "date": 1984
+                            "dy": 0,
+                            "targetId": "86da12a5692a812d",
+                            "date": 1981
                         }
                     ]
                 }
@@ -2777,107 +2417,122 @@
             "size": 7,
             "bgColor": "bg-[#9b18187F]",
             "borderColor": "border-[#9b1818]",
-            "id": "3384fd77a8f40d3a",
+            "id": "3ffe37fd291d1bcc",
             "person": true,
             "intro": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquam et elit nec condimentum. Morbi sit amet felis dolor. Vestibulum molestie eleifend iaculis. Ut augue augue, varius id aliquet ac, vehicula sit amet purus. Nullam quis ex dictum purus fringilla pretium in in justo. Cras nec metus ligula. Aenean nec luctus lorem, sit amet aliquet ligula. Pellentesque vestibulum vitae neque ultricies gravida. Nam faucibus blandit lectus, eu lobortis tellus fringilla sit amet. Duis auctor cursus est, nec eleifend lacus ullamcorper vel. In varius congue lorem, vitae maximus mi faucibus a. Pellentesque efficitur pellentesque magna in pulvinar. Morbi viverra ultrices sapien, quis placerat diam tincidunt non.",
             "image": 0,
             "bgImage": 0,
             "relationshipGroups": [
                 {
-                    "startPoint": "0 -100",
-                    "endPoint": "35 -93",
-                    "relationships": [
-                        {
-                            "title": "Blanket 0",
-                            "x": 47,
-                            "y": -99,
-                            "dx": 0,
-                            "dy": 0,
-                            "targetId": "66aed060f348ed69",
-                            "date": 1995
-                        }
-                    ]
-                },
-                {
-                    "startPoint": "77 65",
-                    "endPoint": "50 87",
-                    "relationships": [
-                        {
-                            "title": "Paul Buf0",
-                            "x": 47,
-                            "y": 100,
-                            "dx": 0,
-                            "dy": 4,
-                            "targetId": "9c9a20ce6500a226",
-                            "date": 1998
-                        }
-                    ]
-                },
-                {
                     "startPoint": "1 100",
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "The Blue0",
+                            "title": "Before J",
                             "x": -64,
                             "y": -88,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "Miles Da1",
+                            "title": "The Blue",
                             "x": -93,
                             "y": -58,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e65492745478a354",
-                            "date": 1944
+                            "targetId": "cb5963970b819c25",
+                            "date": 1936
                         },
                         {
-                            "title": "Paul Buf2",
+                            "title": "Miles Da",
                             "x": -107,
                             "y": -20,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
+                            "targetId": "ad96aae16ecd2c9d",
+                            "date": 1944
                         },
                         {
-                            "title": "Theloniu3",
+                            "title": "Title 1",
                             "x": -107,
                             "y": 21,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
+                            "targetId": "1b45137bae971bf8",
+                            "date": 1950
                         },
                         {
-                            "title": "Duke Ell4",
+                            "title": "Buddy Bo",
                             "x": -93,
                             "y": 59,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "4c4c21a3feaa2a9c",
-                            "date": 1970
+                            "targetId": "191979c478ad08cd",
+                            "date": 1954
                         },
                         {
-                            "title": "Benny Hi5",
+                            "title": "Paul Buf",
                             "x": -64,
                             "y": 89,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "6758f405beb01567",
-                            "date": 1972
+                            "targetId": "c1446b8005582b7f",
+                            "date": 1955
                         },
                         {
-                            "title": "Bitch's 6",
+                            "title": "Paul Buf",
                             "x": -28,
                             "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "0c5103da33853392",
+                            "targetId": "ae590fccffecbb1b",
+                            "date": 1955
+                        },
+                        {
+                            "title": "CannonBa",
+                            "x": 12,
+                            "y": 110,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "1a257c8581350f05",
+                            "date": 1963
+                        },
+                        {
+                            "title": "Theloniu",
+                            "x": 52,
+                            "y": 98,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "cd9519fe32fe11d3",
+                            "date": 1969
+                        },
+                        {
+                            "title": "Art Farm",
+                            "x": 84,
+                            "y": 73,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "415ddcbf356a72e7",
+                            "date": 1969
+                        },
+                        {
+                            "title": "The Smoo",
+                            "x": 105,
+                            "y": 36,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "70adeec90e87803d",
+                            "date": 1974
+                        },
+                        {
+                            "title": "Bitch's ",
+                            "x": 110,
+                            "y": -3,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "3044c0fa1e2b5087",
                             "date": 1990
                         }
                     ]
@@ -2905,7 +2560,7 @@
             "size": 5,
             "bgColor": "bg-[#9b18187F]",
             "borderColor": "border-[#9b1818]",
-            "id": "66aed060f348ed69",
+            "id": "148819401402e30c",
             "person": false,
             "intro": false,
             "image": false,
@@ -2916,120 +2571,84 @@
                     "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "The Blue0",
-                            "x": -64,
-                            "y": -88,
+                            "title": "Before J",
+                            "x": -70,
+                            "y": -84,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "e29b8f9a6366cd43",
+                            "targetId": "57addc9e35adf23a",
                             "date": 1936
                         },
                         {
-                            "title": "Paul Buf1",
-                            "x": -93,
-                            "y": -58,
+                            "title": "Swing",
+                            "x": -99,
+                            "y": -46,
                             "dx": -15,
                             "dy": 0,
-                            "targetId": "41812f05978ddd42",
+                            "targetId": "3beedc1208cd217a",
                             "date": 1944
                         },
                         {
-                            "title": "The Swin2",
-                            "x": -107,
-                            "y": -20,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "419de9238779b968",
-                            "date": 1954
-                        },
-                        {
-                            "title": "Buddy Bo3",
-                            "x": -107,
-                            "y": 21,
+                            "title": "Title 1",
+                            "x": -110,
+                            "y": 1,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "2b41a4b80c019817",
-                            "date": 1954
+                            "targetId": "1b45137bae971bf8",
+                            "date": 1950
                         },
                         {
-                            "title": "Paul Buf4",
-                            "x": -93,
-                            "y": 59,
+                            "title": "CannonBa",
+                            "x": -99,
+                            "y": 47,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "6824a3cbc6db7614",
-                            "date": 1955
-                        },
-                        {
-                            "title": "CannonBa5",
-                            "x": -64,
-                            "y": 89,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "12dec8d62ebc0ef5",
+                            "targetId": "1a257c8581350f05",
                             "date": 1963
                         },
                         {
-                            "title": "Theloniu6",
+                            "title": "Art Farm",
+                            "x": -70,
+                            "y": 85,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "415ddcbf356a72e7",
+                            "date": 1969
+                        },
+                        {
+                            "title": "A Darker",
                             "x": -28,
                             "y": 107,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "c0932978847489ad",
-                            "date": 1969
+                            "targetId": "dac99b44c9501a4a",
+                            "date": 1980
                         },
                         {
-                            "title": "Duke Ell7",
-                            "x": 12,
-                            "y": 110,
+                            "title": "Miles Da",
+                            "x": 20,
+                            "y": 109,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "4c4c21a3feaa2a9c",
-                            "date": 1970
+                            "targetId": "a2fab6b501132a63",
+                            "date": 1984
                         },
                         {
-                            "title": "Paul Buf8",
-                            "x": 52,
-                            "y": 98,
+                            "title": "Bitch's ",
+                            "x": 64,
+                            "y": 91,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "a4e78f8cea259eb2",
-                            "date": 1970
+                            "targetId": "3044c0fa1e2b5087",
+                            "date": 1990
                         },
                         {
-                            "title": "The Smoo9",
-                            "x": 84,
-                            "y": 73,
+                            "title": "Miles Da",
+                            "x": 96,
+                            "y": 55,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "a0ce20aef400e6e8",
-                            "date": 1974
-                        },
-                        {
-                            "title": "A Bright10",
-                            "x": 105,
-                            "y": 36,
-                            "dx": -15,
-                            "dy": 4,
-                            "targetId": "be0da7f56449ed1b",
-                            "date": 1981
-                        },
-                        {
-                            "title": "The Jazz11",
-                            "x": 110,
-                            "y": -3,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "3af40d119807c006",
-                            "date": 1981
-                        },
-                        {
-                            "title": "Miles Da12",
-                            "x": 101,
-                            "y": -44,
-                            "dx": -15,
-                            "dy": 0,
-                            "targetId": "3384fd77a8f40d3a",
+                            "targetId": "3ffe37fd291d1bcc",
                             "date": 1994
                         }
                     ]
@@ -3048,7 +2667,7 @@
             "size": 7,
             "bgColor": "bg-[#9b18187F]",
             "borderColor": "border-[#9b1818]",
-            "id": "9c9a20ce6500a226",
+            "id": "8c44a90e2af0868c",
             "person": true,
             "intro": "Paul B",
             "image": 0,
@@ -3056,16 +2675,34 @@
             "relationshipGroups": [
                 {
                     "startPoint": "1 100",
-                    "endPoint": "-34 94",
+                    "endPoint": "-50 -86",
                     "relationships": [
                         {
-                            "title": "A Darker0",
-                            "x": -46,
-                            "y": 100,
+                            "title": "The Blue",
+                            "x": -87,
+                            "y": -66,
+                            "dx": -15,
+                            "dy": 0,
+                            "targetId": "cb5963970b819c25",
+                            "date": 1936
+                        },
+                        {
+                            "title": "Benny Hi",
+                            "x": -110,
+                            "y": 1,
                             "dx": -15,
                             "dy": 4,
-                            "targetId": "2b935f3bb7e4c4f8",
-                            "date": 1980
+                            "targetId": "57e8d19211e3e05b",
+                            "date": 1972
+                        },
+                        {
+                            "title": "A Bright",
+                            "x": -87,
+                            "y": 67,
+                            "dx": -15,
+                            "dy": 4,
+                            "targetId": "4f60c128915fc120",
+                            "date": 1981
                         }
                     ]
                 }

@@ -76,7 +76,8 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
                         landmark.relationshipGroups.map((relationshipGroup, index) => {
                             return(
                                 // relationship group
-                                <RelationshipGroup relationshipGroup={relationshipGroup} color={landmark.borderColor} key={index}/>
+                                <RelationshipGroup landmark={landmark}
+                                relationshipGroup={relationshipGroup} color={landmark.borderColor} key={index}/>
                             )
                         })
                     }
