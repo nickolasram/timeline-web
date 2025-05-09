@@ -1,29 +1,64 @@
 import Landmark from "@/app/components/Landmark";
-import data from '@/data.json'
+import {useHorizontalScroll} from "@/app/hooks/HorizontalScrollHook";
+import TimelineTickbar from "@/app/components/TimelineTickbar";
+import Navbar from "@/app/components/Navbar";
+import React from "react";
+import { useDraggable } from "react-use-draggable-scroll";
+import {useTimelineContext} from "@/app/hooks/contexts";
+import {ITimeline} from "@/types";
 
-const landmarks = data.landmarks;
+interface ITimelineProps {
+    timelineData: ITimeline;
+}
 
-const Timeline = () => {
-    const coordinates = []
-    for (let i = 1; i < 13; i++) {
-        // can probably get rid of this loop
-        for (let j = 1; j < 26; j++) {
-            coordinates.push([j, i])
-        }
+
+const Timeline = ({timelineData}: ITimelineProps) => {
+    const landmarks = timelineData.landmarks;
+    const meta = timelineData.meta;
+    const years = timelineData.years;
+    const scrollRef = useHorizontalScroll();
+    const timelineContext = useTimelineContext();
+    let { events } = useDraggable(scrollRef);
+    if (!timelineContext.dragScroll){
+        events = {}
     }
-
+    const heightValues =  timelineContext.scrollbar ? 'h-[calc(96dvh-4rem)] auto-cols-[calc((96dvh-4rem)/12)]' :
+            'h-[calc(97.5dvh-4rem)] auto-cols-[calc((97.5dvh-4rem)/12)]'
     return(
-        <section className={'bg-gray-950 h-[calc(95vh-4rem)] grid grid-rows-12 auto-cols-[calc((95vh-4rem)/12)] ' +
-            'w-fit min-w-screen mt-[4rem]'}>
-            {
-                landmarks.map((landmark, index) => {
-                    return (
-                        <Landmark landmark={landmark} key={index} />
-                    )
-                })
-            }
-        </section>
-
+        <div ref={scrollRef}
+             {...events}
+             className={`max-w-screen timeline-scrollbar overflow-y-hidden 
+                        ${timelineContext.scrollbar ? 'overflow-x-scroll' : 'overflow-x-hidden'}
+                        `}>
+            <Navbar meta={meta} landmarks={landmarks} />
+            <section id='timelineId' className={`bg-[#0b030f] grid grid-rows-12 w-fit min-w-screen sticky top-[4rem]
+                                                ${heightValues}`}>
+                {
+                    landmarks.map((landmark, index) => {
+                        return (
+                            <Landmark landmark={landmark} key={index} />
+                        )
+                    })
+                }
+                {
+                    years.map((year, index) => {
+                        if(!year.placeholder){
+                            return (
+                                <div className={`${year.bgYearColumn} row-start-3 row-end-10`} key={index}>
+                                    <p className={`[writing-mode:vertical-rl] [text-orientation:upright]
+                                                bg-red-50 select-none bg-radial
+                                                from-gray-900 from-0% via-[#2b232f] via-30% to-gray-950 to-85%
+                                                text-7xl bg-clip-text text-transparent font-black
+                                                ${year.firstEra ? '' : 'hover:brightness-200'} transition-all`}>
+                                        {year.year}</p>
+                                </div>
+                            )
+                        }
+                    })
+                }
+            </section>
+            <TimelineTickbar years={years} />
+        </div>
     )
 }
 

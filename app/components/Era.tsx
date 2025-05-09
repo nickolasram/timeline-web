@@ -10,7 +10,14 @@ const Era=({landmark}: IEraProp)=>{
     const [isOpen, setIsOpen] = useState(false)
     const textShadow = `text-shadow-[1px_0_2px_rgb(0_0_0_/_1)_,_-1px_0_2px_rgb(0_0_0_/_1)_,_0_-1px_2px_rgb(0_0_0_/_1)_,_0_1px_2px_rgb(0_0_0_/_1)]`
     return(
-        <div id={landmark.id} className={`${landmark.column} ${landmark.row}  w-full h-full bg-cover bg-center ${textShadow} 
+        <div id={landmark.id} className={`${landmark.column} ${landmark.row}
+         w-full h-full bg-cover bg-center ${textShadow}
+         mask-t-from-98%
+         mask-l-from-95% 
+         mask-b-from-90%
+         mask-b-to-97%
+         mask-radial-from-90%
+         mask-radial-at-bottom-right
         ${landmark.bgImage}`}
         >
             <div className={`${landmark.bgColor} w-full h-full overflow-y-clip`}

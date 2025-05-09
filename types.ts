@@ -1,16 +1,32 @@
-interface IRelationship{
+export interface IYear{
+    year:number;
+    endYear:number;
+    placeholder:boolean;
+    hoverContent:string;
+    setContent:string;
+    span:boolean;
+    firstId:boolean|string;
+    firstEra:boolean;
+    bgYearColumn:boolean|string;
+    percentageAcross: number;
+    bgYearDisplay:string|number;
+}
+
+export interface IRelationship{
     title: string;
     x: number;
     y: number;
-    dx: number;
+    textAnchor: string;
     dy: number;
     targetId: string;
+    context:boolean|string;
 }
 
 export interface IRelationshipGroup {
-    startPoint: string;
-    endPoint: string;
+    startPoint: number[];
+    endPoint: number[];
     relationships: IRelationship[];
+    future: boolean;
 }
 
 export interface ILandmark {
@@ -18,7 +34,7 @@ export interface ILandmark {
     activeEndMonth?: number;
     activeEndYear?: number;
     bgColor: string;
-    bgImage: string;
+    bgImage: number | string | boolean;
     birthDay?: number;
     birthMonth?: number;
     birthYear?: number;
@@ -33,7 +49,7 @@ export interface ILandmark {
     era: boolean;
     eraEndYear?: number;
     id: string;
-    image?: string;
+    image?: undefined | string;
     intro?: boolean | string;
     month: number;
     person: boolean;
@@ -42,4 +58,22 @@ export interface ILandmark {
     size: number;
     title: string;
     year: number;
+    link:undefined|string;
+    color:string;
+    keyPoints:string[]|false;
+}
+
+export interface IMetaData {
+    timelineTitle: string,
+    citations: string,
+    note: false|string[],
+    authors: string[]
+    id:string;
+}
+
+export interface ITimeline {
+    meta: IMetaData;
+    landmarks: ILandmark[];
+    years: IYear[];
+    yearsIndex: object
 }

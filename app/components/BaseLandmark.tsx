@@ -2,6 +2,7 @@ import RelationshipGroup from "@/app/components/RelationshipGroup";
 import InfoModal from "@/app/components/InfoModal";
 import { ILandmark } from "@/types";
 import { useState } from "react";
+import {useTimelineContext} from "@/app/hooks/contexts";
 
 const svgBaseWidth= 250
 
@@ -19,6 +20,7 @@ interface IStyle{
 }
 
 const landmarkStyle =(landmark: ILandmark)=>{
+    const timelineContext = useTimelineContext();
     const styleObject: IStyle = {
         imageRules: '',
         intro: landmark.birthYear ? 'text-gray-400 line-clamp-2 ': 'text-gray-400 line-clamp-3 ',
@@ -31,7 +33,9 @@ const landmarkStyle =(landmark: ILandmark)=>{
                       bg-cover bg-center cursor-pointer
                       text-shadow-[1px_0_2px_rgb(0_0_0_/_1)_,_-1px_0_2px_rgb(0_0_0_/_1)_,_0_-1px_2px_rgb(0_0_0_/_1)_,_0_1px_2px_rgb(0_0_0_/_1)] `
     }
-    if(landmark.bgImage) {styleObject.textContainer += 'opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out '}
+    if(landmark.bgImage && !timelineContext.showTitles) {
+        styleObject.textContainer += 'opacity-0 group-hover:opacity-100 transition-all duration-300 ease-in-out'
+    }
     styleObject.textContainer += landmark.size == 3 ? `flex justify-center items-center text-center) `: ' ';
     switch(landmark.size){
         case 5:
@@ -59,7 +63,7 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
         // landmark container
         <div
             className={`${landmark.column} ${landmark.row}
-            transition-all duration-300 ease-in-out group
+            transition-all duration-300 ease-in-out group hover:z-70 z-5
             grid grid-cols-1 grid-rows-1 justify-items-center items-center`}>
 
             {/* svg background / overlay */}
@@ -71,6 +75,13 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
                 viewBox={`${-svgBaseWidth / 2} ${-svgBaseWidth / 2} ${svgBaseWidth} ${svgBaseWidth}`}
                 className={`col-1 row-1`}>
                 {/* relationship groups group */}
+                <defs>
+                    <radialGradient id="RadialGradient">
+                        <stop offset="0%" stopColor="#030712bb" />
+                        <stop offset="50%" stopColor="#030712aa" />
+                        <stop offset="100%" stopColor="#03071200" />
+                    </radialGradient>
+                </defs>
                 <g>
                     { landmark.relationshipGroups &&
                         landmark.relationshipGroups.map((relationshipGroup, index) => {
@@ -88,7 +99,10 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
             <div className={style.outerCircle}
             onClick={() => setIsOpen(true)}>
                 {/* inner circle */}
-                <div id={landmark.id} className={`${landmark.bgColor} w-full h-full rounded-full flex flex-col justify-center items-center`}>
+                <div id={landmark.id} className={`${landmark.bgColor} w-full h-full 
+                rounded-full flex flex-col 
+                justify-center items-center 
+                cursor-pointer`}>
                     {/* text container */}
                     <div className={style.textContainer}>
                         <div className={`h-[100%] flex flex-col justify-around items-baseline`}>
@@ -105,7 +119,9 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
                                             <p  className={style.years}>{lifeYearString}</p>
                                         }
                                         {/* year(s) */}
-                                        <p className={style.years}>{yearString}</p>
+                                        {landmark.displayDate &&
+                                            <p className={style.years}>{yearString}</p>
+                                        }
                                     </>
                                 }
                             </div>

@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { Hedvig_Letters_Serif } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/app/components/Navbar";
 
 const hedvigLetters = Hedvig_Letters_Serif({
   variable: "--font-hedvig-letters-serif",
@@ -19,12 +18,11 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
-    <html lang="en">
-      <body
-        className={`${hedvigLetters.variable} antialiased`}
-      >
-        <Navbar />
+    <html lang="en" className={'overflow-x-hidden'}>
+      <body className={`${hedvigLetters.variable} antialiased`}>
+        {/*<Navbar />*/}
         {children}
       </body>
     </html>
