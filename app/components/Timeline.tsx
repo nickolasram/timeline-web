@@ -17,6 +17,8 @@ const Timeline = ({timelineData}: ITimelineProps) => {
     const meta = timelineData.meta;
     const years = timelineData.years;
     const scrollRef = useHorizontalScroll();
+    const presentations = timelineData.presentations;
+    const presentationsMeta = presentations.map(a => a.meta)
     const timelineContext = useTimelineContext();
     let { events } = useDraggable(scrollRef);
     if (!timelineContext.dragScroll){
@@ -30,13 +32,13 @@ const Timeline = ({timelineData}: ITimelineProps) => {
              className={`max-w-screen timeline-scrollbar overflow-y-hidden 
                         ${timelineContext.scrollbar ? 'overflow-x-scroll' : 'overflow-x-hidden'}
                         `}>
-            <Navbar meta={meta} landmarks={landmarks} />
-            <section id='timelineId' className={`bg-[#0b030f] grid grid-rows-12 w-fit min-w-screen sticky top-[4rem]
+            <Navbar meta={meta} landmarks={landmarks} presentationsMeta={presentationsMeta} />
+            <section  id='timelineId' className={`bg-[#0b030f] grid grid-rows-12 w-fit min-w-screen sticky top-[4rem]
                                                 ${heightValues}`}>
                 {
                     landmarks.map((landmark, index) => {
                         return (
-                            <Landmark landmark={landmark} key={index} />
+                            <Landmark landmark={landmark} key={index}/>
                         )
                     })
                 }

@@ -1,6 +1,7 @@
 import {ILandmark} from "@/types";
 import {Dialog, DialogPanel, DialogTitle, Transition, TransitionChild} from "@headlessui/react";
 import {Dispatch, Fragment, SetStateAction} from "react";
+import {useTimelineContext} from "@/app/hooks/contexts";
 
 interface IRelationshipModal {
     landmark : ILandmark,
@@ -9,9 +10,13 @@ interface IRelationshipModal {
 }
 
 const RelationshipModal =({landmark, isOpen, setIsOpen}: IRelationshipModal)=>{
+    const timelineContext = useTimelineContext();
     return(
         <Transition appear show={isOpen} as={Fragment}>
-            <Dialog as="div" className="relative z-90" onClose={()=> setIsOpen(false)}>
+            <Dialog as="div" className="relative z-90" onClose={()=> {
+                timelineContext.setDragScroll(true);
+                setIsOpen(false)
+            }}>
                 <TransitionChild
                     as={Fragment}
                     enter="ease-out duration-300"

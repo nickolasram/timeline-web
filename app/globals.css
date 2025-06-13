@@ -32,6 +32,18 @@ body {
   }
 }
 
+@keyframes reverseBlinker {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 100;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
@@ -81,11 +93,12 @@ body {
   animation: dropdownAnimation 0.25s ease-in-out none;
 }
 
-@keyframes dropdownAnimation {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: calc(97.5dvh - 4rem);
-  }
+.borderBL{
+  border-bottom: 1px solid #eee;
+  border-inline: 1px solid #eee;
+}
+
+.dashedbg{
+  background-position: top 100% left 0;
+  background-image: url("data:image/svg+xml,%3Csvg width='1.5rem' xmlns='http://www.w3.org/2000/svg' height='1.5rem' viewBox='0 0 100 100' %3E%3Cpath d='M50 0 L50 100' stroke='black' stroke-width='5' stroke-dasharray='5'/%3E%3C/svg%3E");
 }

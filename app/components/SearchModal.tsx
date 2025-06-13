@@ -1,5 +1,5 @@
 import {Dispatch, Fragment, SetStateAction, useState} from "react";
-import {Dialog, DialogPanel, Transition, TransitionChild} from "@headlessui/react";
+import {Button, Dialog, DialogPanel, Transition, TransitionChild} from "@headlessui/react";
 import { Input } from '@headlessui/react'
 import stringComparison from 'string-comparison'
 import {ILandmark} from "@/types";
@@ -19,46 +19,58 @@ interface ISearchResult {
 const SearchResult =({landmark, timelineId}: ISearchResult)=>{
     return(
         <div className={'p-3 bg-white/25 rounded-sm'}>
-            <div className={'flex gap-2 items-center'}>
-                <svg height="1rem" width="1rem">
-                    <circle r="50%" cx="50%" cy="50%" fill={landmark.borderColor.slice(8, 15)} />
-                </svg>
-                <p className={'text-md text-black w-[40ch] text-ellipsis text-nowrap overflow-hidden'}>{landmark.title}</p>
-            </div>
-            <div className={'flex gap-2 text-gray-800 text-sm pl-[1.7rem]'}>
-                <p className={''}>{landmark.year}</p>
-                <p className={'max-w-[13ch] text-ellipsis text-nowrap overflow-hidden'}>{landmark.intro}</p>
-            </div>
-            <div className={'flex gap-4 pl-[1.7rem] pt-1'}>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22"
-                     strokeWidth="1.5"
-                     stroke="black"
-                     className="size-5 cursor-pointer"
-                    onClick={()=>{
-                                const element = document!.getElementById(landmark.id)!
-                                element.scrollIntoView({ behavior: "smooth", block: "end", inline: "center" })
-                                element.classList.add('animate-[blinker_500ms_linear_5]')
-                                setTimeout(function () {
-                                    element.classList.remove('animate-[blinker_500ms_linear_5]')
-                                }, 5000);
-                            }}
-                >
-                    <path strokeLinecap="round" strokeLinejoin="round"
-                          d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
-                    <title>Find on Timeline</title>
-                </svg>
-
-                <Link href={`../landmark/${timelineId}/${landmark.id}`} target={'_blank'}>
-                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
-                         strokeWidth={1.5}
-                         stroke="black"
-                         className="size-5 cursor-pointer">
-                        <path strokeLinecap="round" strokeLinejoin="round"
-                              d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/>
-                        <title>Open Page</title>
+            <div className={'flex gap-2 items-start'}>
+                { !landmark.images &&
+                    <svg className={`size-[3rem] self-center`} viewBox={'0 0 100 100'}>
+                        <circle r="40" cx="50%" cy="50%"
+                                fill={landmark.color} fillOpacity={0.5}
+                                strokeWidth={10} stroke={landmark.color} />
                     </svg>
-                </Link>
+                }
+                { landmark.images &&
+                    <div className={`size-[3rem] ${landmark.bgImage} bg-cover bg-center 
+                    rounded-full ${landmark.borderColor} border-4 self-center`}>
+
+                    </div>
+                }
+                <div>
+                    <p className={'text-md text-black w-[30ch] text-ellipsis text-nowrap overflow-hidden'}>{landmark.title}</p>
+                    <div className={'flex gap-2 text-gray-800 text-sm'}>
+                        <p className={''}>{landmark.year}</p>
+                        <p className={'max-w-[13ch] text-ellipsis text-nowrap overflow-hidden'}>{landmark.intro}</p>
+                    </div>
+                    <div className={'flex gap-4 pt-1'}>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 22 22"
+                             strokeWidth="1.5"
+                             stroke="black"
+                             className="size-5 cursor-pointer"
+                             onClick={()=>{
+                                 const element = document!.getElementById(landmark.id)!
+                                 element.scrollIntoView({ behavior: "smooth", block: "end", inline: "center" })
+                                 element.classList.add('animate-[blinker_500ms_linear_5]')
+                                 setTimeout(function () {
+                                     element.classList.remove('animate-[blinker_500ms_linear_5]')
+                                 }, 5000);
+                             }}
+                        >
+                            <path strokeLinecap="round" strokeLinejoin="round"
+                                  d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/>
+                            <title>Find on Timeline</title>
+                        </svg>
+                        <Link href={`../landmark/${timelineId}/${landmark.id}`} target={'_blank'}>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                 strokeWidth={1.5}
+                                 stroke="black"
+                                 className="size-5 cursor-pointer">
+                                <path strokeLinecap="round" strokeLinejoin="round"
+                                      d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25"/>
+                                <title>Open Page</title>
+                            </svg>
+                        </Link>
+                    </div>
+                </div>
             </div>
+
         </div>
     )
 }
@@ -109,7 +121,7 @@ const SearchModal =({isOpen, setIsOpen, landmarks, timelineId}: ISearchModal)=>{
                 </TransitionChild>
 
                 <div className="fixed inset-0 overflow-y-auto">
-                    <div className="flex min-h-full items-start justify-end pt-[4rem] text-center">
+                    <div className="flex min-h-full items-start justify-end pt-[2rem] text-center">
                         <TransitionChild
                             as={Fragment}
                             enter="ease-out duration-300"
@@ -120,9 +132,15 @@ const SearchModal =({isOpen, setIsOpen, landmarks, timelineId}: ISearchModal)=>{
                             leaveTo="opacity-0 scale-95"
                         >
                             <DialogPanel className={`min-w-sm max-w-[70dvw] transform overflow-y-auto bg-white/50
-                                                    backdrop-blur-[2px] p-6 text-left align-middle shadow-xl transition-all
-                                                    h-[calc(98dvh-4rem)] dropdownElement`}
+                                                    backdrop-blur-[2px] p-6 pt-10 text-left align-middle shadow-xl transition-all
+                                                    h-[calc(98dvh-2rem)] dropdownElement relative`}
                             >
+                                <Button className={` absolute top-2 right-2 cursor-pointer`} onClick={()=>setIsOpen(false)}>
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                                         strokeWidth="1.5" stroke="black" className="size-6">
+                                        <path strokeLinecap="round" strokeLinejoin="round" d="M6 18 18 6M6 6l12 12"/>
+                                    </svg>
+                                </Button>
                                 <Input name="full_name" type="text" placeholder="Search..."
                                 className={`border px-[1rem] w-full h-[2.5rem] mb-5  rounded-sm`}
                                 onInput={(e)=>setSearchValue(e.target.value)}

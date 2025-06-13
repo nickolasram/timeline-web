@@ -7,7 +7,6 @@ export const useHorizontalScroll = () => {
     const timelineContext = useTimelineContext();
     const timelineID = timelineContext.timelineID
     const yearsIndex = data[timelineID].yearsIndex;
-    // const yearsIndex = data
     const onScroll = (e) => {
         const refValueHolder = scrollRef.current;
         refValueHolder.removeEventListener('scroll', onScroll);

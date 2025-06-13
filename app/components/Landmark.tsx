@@ -4,10 +4,11 @@ import BaseLandmark from "@/app/components/BaseLandmark";
 import NodeLandmark from "@/app/components/NodeLandmark";
 
 interface ILandmarkProp {
-    landmark: ILandmark;
+    landmark: ILandmark
 }
 
 const Landmark = ({landmark}: ILandmarkProp) =>{
+
     if(landmark.era){
         return <Era landmark={landmark} />
     }

@@ -4,18 +4,21 @@ import {useState} from "react";
 import SearchModal from "@/app/components/SearchModal";
 import MetaModal from "@/app/components/MetaModal";
 import SettingsModal from "@/app/components/SettingsModal";
-import {ILandmark, IMetaData} from "@/types";
+import {ILandmark, IMetaData, IPresentationMetadata} from "@/types";
 import Link from "next/link";
+import InfoModal from "@/app/components/InfoModal";
 
 interface INavbar{
     meta: IMetaData;
     landmarks: ILandmark[];
+    presentationsMeta: IPresentationMetadata[];
 }
 
-const Navbar=({meta, landmarks}: INavbar)=>{
+const Navbar=({meta, landmarks, presentationsMeta}: INavbar)=>{
     const [openSearch, setOpenSearch] = useState(false);
     const [openMeta, setOpenMeta] = useState(false);
     const [openSettings, setOpenSettings] = useState<boolean>(false);
+    const [infoModalState, setInfoModalState] = useState({open: false, landmark: null});
     return (
         <div className={`h-[4rem] bg-[#0b030f] width-dvw min-w-dvw sticky left-0 top-0
         flex-row flex items-center justify-between px-5`}>
@@ -65,8 +68,11 @@ const Navbar=({meta, landmarks}: INavbar)=>{
                 </Link>
             </div>
             <SearchModal isOpen={openSearch} setIsOpen={setOpenSearch} landmarks={landmarks} timelineId={meta.id}/>
-            <MetaModal isOpen={openMeta} setIsOpen={setOpenMeta} metaData={meta}/>
+            <MetaModal isOpen={openMeta} setIsOpen={setOpenMeta} metaData={meta} presentationsMeta={presentationsMeta}  setInfoModalState={setInfoModalState}/>
             <SettingsModal isOpen={openSettings} setIsOpen={setOpenSettings} />
+            { infoModalState.open &&
+                <InfoModal initialLandmark={infoModalState.landmark} isOpen={infoModalState.open} setIsOpen={setInfoModalState} openInPresentation={true}/>
+            }
         </div>
     )
 }

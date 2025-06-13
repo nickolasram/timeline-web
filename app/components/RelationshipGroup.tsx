@@ -18,6 +18,7 @@ const RelationshipTitle =({relationship, size, index}: IRelationshipTitle)=> {
     if (!relationship.context){
         return (
             <text
+                filter="url(#solid)"
                 x={relationship.x}
                 y={relationship.y}
                 dx={`0`}
@@ -38,6 +39,7 @@ const RelationshipTitle =({relationship, size, index}: IRelationshipTitle)=> {
         return(
             <g id={`relationshipAnimationGroup${index}`}>
                 <text
+                    filter="url(#solid)"
                     opacity={'0'}
                     x={relationship.x}
                     y={relationship.y}
@@ -67,6 +69,7 @@ const RelationshipTitle =({relationship, size, index}: IRelationshipTitle)=> {
                     />
                 </text>
                 <text
+                    filter="url(#shadow)"
                     x={relationship.x}
                     y={relationship.y}
                     dx={`0`}
@@ -115,7 +118,6 @@ const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGr
     let stroke: number;
     let hover: string;
     let factor = 1;
-    let rectHeight = 16;
     switch (landmark.size){
         case 3:
             size = '1.5rem'
@@ -123,7 +125,6 @@ const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGr
             stroke = 8
             hover = 'group-hover:stroke-10'
             factor = 1.05
-            rectHeight *= 2.3
             break
         case 5:
             size = '0.825rem'
@@ -131,7 +132,6 @@ const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGr
             stroke = 6
             hover = 'group-hover:stroke-8'
             factor = 1.02
-            rectHeight *= 1.3
             break
         case 7:
             size = '0.65rem'
@@ -152,7 +152,7 @@ const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGr
                                              A ${100 * factor} ${100 * factor} 45 0 ${relationshipGroup.future ? 1 : 0}
                                              ${relationshipGroup.endPoint[0]  * factor} ${relationshipGroup.endPoint[1]  * factor}`}
                                            fill="none"
-                                           stroke={color.slice(8,15)}
+                                           stroke={landmark.color}
                                            strokeWidth={stroke}
                                            transform={`rotate(${relationshipGroup.future ? 15 : -15})`}
                                            className={`group-hover:scale-105 transition-all duration-300 ease-in-out
@@ -162,28 +162,6 @@ const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGr
                                 <g>
                                     {
                                         relationshipGroup.relationships.slice(0,titlesShown).map((relationship, index)=>{
-                                            let relativeX = 0;
-                                            let relativeY = 0;
-                                            let rectangleWidth = 0
-                                            switch (landmark.size){
-                                                case 3:
-                                                    if (relationship.x < 0) relativeX = Math.floor(-95/8) * relationship.title.length
-                                                    if (relationship.y < 0) relativeY = -22
-                                                    if (relationship.y >= 0) relativeY = -15
-                                                    rectangleWidth = relationship.title.length+Math.floor(relationship.title.length/3)
-                                                    break
-                                                case 5:
-                                                    if (relationship.x < 0) relativeX = -58
-                                                    if (relationship.y < 0) relativeY = -15
-                                                    if (relationship.y > 0) relativeY = -4
-                                                    rectangleWidth = relationship.title.length - 1
-                                                    break
-                                                case 7:
-                                                    if (relationship.x < 0) relativeX = Math.floor(-45/9) * relationship.title.length
-                                                    if (relationship.y < 0) relativeY = -11
-                                                    rectangleWidth = relationship.title.length - 3
-                                                    break
-                                            }
                                             return(
                                                 <PopoverPanel key={index} static as={"g"}
                                                               className={`cursor-pointer`}
@@ -198,19 +176,7 @@ const RelationshipGroup=({ relationshipGroup, color, landmark }: IRelationshipGr
                                                                   }
                                                               }}
                                                 >
-                                                    < rect
-                                                        x={relationship.x - 3 + relativeX}
-                                                        y={relationship.y  - 1 + relativeY}
-                                                        dx={`0`}
-                                                        dy={`${relationship.dy}%`}
-                                                        rx="15"
-                                                        // width={rectWidth}
-                                                        width={`${rectangleWidth}ch`}
-                                                        height={rectHeight}
-                                                        fill="url(#RadialGradient)"/>
-                                                        {/*fill="green"/>*/}
-                                                        <RelationshipTitle relationship={relationship} size={size}
-                                                                           color={color.slice(8,15)} index={index} />
+                                                        <RelationshipTitle relationship={relationship} size={size} index={index}/>
                                                 </PopoverPanel>
                                             )
                                         })

@@ -1,13 +1,15 @@
 import {ILandmark} from "@/types";
 import {useState} from "react";
 import RelationshipModal from "@/app/components/RelationshipModal";
+import {useTimelineContext} from "@/app/hooks/contexts";
 
 interface INodeLandmark {
-    landmark: ILandmark
+    landmark: ILandmark;
 }
 
 const NodeLandmark =({landmark}:INodeLandmark)=>{
     const [isOpen, setIsOpen] = useState(false)
+    const timelineContext = useTimelineContext();
     return(
         <div className={`${landmark.column} ${landmark.row}
             transition-all duration-300 ease-in-out group hover:z-70 z-5
@@ -15,7 +17,10 @@ const NodeLandmark =({landmark}:INodeLandmark)=>{
             ${landmark.relationshipGroups ? 'cursor-pointer' : ''}`}>
                 {/* inner circle */}
                 <div id={landmark.id}
-                     onClick={() => setIsOpen(true)}
+                     onClick={() => {
+                         timelineContext.setDragScroll(false);
+                         setIsOpen(true)
+                     }}
                      className={`${landmark.bgColor} w-full h-full 
                     rounded-full flex flex-col 
                     justify-center items-center

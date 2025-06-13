@@ -20,6 +20,9 @@ export interface IRelationship{
     dy: number;
     targetId: string;
     context:boolean|string;
+    date: number;
+    displayDate: boolean;
+    color: string;
 }
 
 export interface IRelationshipGroup {
@@ -27,6 +30,17 @@ export interface IRelationshipGroup {
     endPoint: number[];
     relationships: IRelationship[];
     future: boolean;
+}
+
+interface IPresentations{
+    title: string;
+    index: number;
+}
+
+export interface ILandmarkImage{
+    image:string;
+    description:string;
+    alt:string;
 }
 
 export interface ILandmark {
@@ -49,7 +63,7 @@ export interface ILandmark {
     era: boolean;
     eraEndYear?: number;
     id: string;
-    image?: undefined | string;
+    images?: undefined | ILandmarkImage[];
     intro?: boolean | string;
     month: number;
     person: boolean;
@@ -58,22 +72,42 @@ export interface ILandmark {
     size: number;
     title: string;
     year: number;
-    link:undefined|string;
+    links:false|{link:string,display:string}[];
     color:string;
     keyPoints:string[]|false;
+    presentations: IPresentations[];
+    relativeTimePosition: number[];
+    sources: boolean|string[];
+    endDate: boolean|number;
+    files: boolean|{link:string,display:string}[];
 }
 
 export interface IMetaData {
-    timelineTitle: string,
-    citations: string,
-    note: false|string[],
-    authors: string[]
+    timelineTitle: string;
+    citations: string;
+    note: false|string[];
+    authors: string[];
     id:string;
+    landmarkCount: number;
+}
+
+export interface IPresentationMetadata {
+    title: string;
+    highIndex: number;
+    firstLandmarkID: string;
+    id: string;
+}
+
+export interface IPresentation {
+    meta: IPresentationMetadata
+    landmarks: ILandmark[];
 }
 
 export interface ITimeline {
     meta: IMetaData;
     landmarks: ILandmark[];
     years: IYear[];
-    yearsIndex: object
+    yearsIndex: object;
+    presentations: IPresentation[];
+    presentationsSummary: IPresentationMetadata[]
 }

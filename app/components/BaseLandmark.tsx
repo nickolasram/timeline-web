@@ -7,7 +7,7 @@ import {useTimelineContext} from "@/app/hooks/contexts";
 const svgBaseWidth= 250
 
 interface IBaseLandmarkProp {
-    landmark: ILandmark
+    landmark: ILandmark;
 }
 
 interface IStyle{
@@ -58,7 +58,9 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
     if (landmark.person) yearString = 'active: ' + yearString
     if (landmark.activeEndYear) yearString += ` - ${landmark.activeEndYear}`
     let lifeYearString = `${landmark.birthYear} -`
+    if (landmark.endDate) yearString += ` - ${landmark.endDate}`
     if (landmark.deathYear) lifeYearString += ` ${landmark.deathYear}`
+    const timelineContext = useTimelineContext();
     return(
         // landmark container
         <div
@@ -76,19 +78,16 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
                 className={`col-1 row-1`}>
                 {/* relationship groups group */}
                 <defs>
-                    <radialGradient id="RadialGradient">
-                        <stop offset="0%" stopColor="#030712bb" />
-                        <stop offset="50%" stopColor="#030712aa" />
-                        <stop offset="100%" stopColor="#03071200" />
-                    </radialGradient>
+                    <filter id="shadow">
+                        <feDropShadow dx="0" dy="0" stdDeviation="2.5" floodColor="black" />
+                    </filter>
                 </defs>
                 <g>
                     { landmark.relationshipGroups &&
                         landmark.relationshipGroups.map((relationshipGroup, index) => {
                             return(
                                 // relationship group
-                                <RelationshipGroup landmark={landmark}
-                                relationshipGroup={relationshipGroup} color={landmark.borderColor} key={index}/>
+                                <RelationshipGroup landmark={landmark} relationshipGroup={relationshipGroup} color={landmark.borderColor} key={index}/>
                             )
                         })
                     }
@@ -97,7 +96,17 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
 
             {/* outer circle */}
             <div className={style.outerCircle}
-            onClick={() => setIsOpen(true)}>
+            onClick={() => {
+                setIsOpen(true)
+                timelineContext.setDragScroll(false);
+                const lmPresentations = landmark.presentations
+                const currentPresentation = timelineContext.presentationTitle
+                const presentationObject = lmPresentations.find(obj => obj.title === currentPresentation)
+                if (presentationObject) {
+                    const lmPrIndex = presentationObject.index;
+                    timelineContext.setPresentationIndex(lmPrIndex);
+                }
+            }}>
                 {/* inner circle */}
                 <div id={landmark.id} className={`${landmark.bgColor} w-full h-full 
                 rounded-full flex flex-col 
@@ -135,7 +144,7 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
                 </div>
             </div>
             {/* modal */}
-            <InfoModal landmark={landmark} isOpen={isOpen} setIsOpen={setIsOpen}/>
+            <InfoModal initialLandmark={landmark} isOpen={isOpen} setIsOpen={setIsOpen} />
         </div>
     )
 }
