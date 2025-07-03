@@ -102,3 +102,14 @@ body {
   background-position: top 100% left 0;
   background-image: url("data:image/svg+xml,%3Csvg width='1.5rem' xmlns='http://www.w3.org/2000/svg' height='1.5rem' viewBox='0 0 100 100' %3E%3Cpath d='M50 0 L50 100' stroke='black' stroke-width='5' stroke-dasharray='5'/%3E%3C/svg%3E");
 }
+
+.cardTitle::before{
+  content: "";
+  width: 80%;
+  height: 1.5rem;
+  background-color: #414e6c;
+  position: absolute;
+  left: 2rem;
+  top: 55%;
+  z-index: -1;
+}

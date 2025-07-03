@@ -790,7 +790,10 @@
                 "bgImage": "bg-[url(https://cdn.britannica.com/80/205980-050-190E3A67/Buddy-Bolden-Band-New-Orleans-Jimmie-Johnson-1905.jpg)]",
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "Much of this era and the start of jazz went unrecorded",
+                    "NOLA provided a perfect environment for jazz to materialize"
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -1217,7 +1220,10 @@
                 "bgImage": null,
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "often erroneously cited as the birthplace of jazz",
+                    "still an important part of multiple early jazz titan's lives"
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -1313,7 +1319,11 @@
                 "bgImage": "bg-[url(https://upload.wikimedia.org/wikipedia/commons/3/35/MortonBricktopRowCropMortonFace.jpg)]",
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "greatest of the New Orleans jazz composers",
+                    "Morton’s music apprenticeship took place largely in Storyville",
+                    "Noteworthy recordings from the 1920s include an 1927 trio session with Johnny Dodds and Baby Dodds, a 1924 duet with King Oliver, and 1923 work with the New Orleans Rhythm Kings."
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -1505,7 +1515,11 @@
                 "bgImage": "bg-[url(https://upload.wikimedia.org/wikipedia/commons/5/52/King_Oliver_%281915_portrait%29.jpg)]",
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "Cornet player, bandleader, and composer",
+                    "Mentor and teacher of Louis Armstrong",
+                    " \"Dippermouth Blues\", \"Sweet Like This\", \"Canal Street Blues\", and \"Doctor Jazz\""
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -1646,7 +1660,11 @@
                 "bgImage": "bg-[url(https://upload.wikimedia.org/wikipedia/commons/c/c9/Bechet.gif)]",
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "prominent role in developing the clarinet as a mature solo voice in jazz",
+                    "developed a voice-like quality to his playing",
+                    "equally at home submerging his melody lines in the larger ensemble"
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -1745,7 +1763,10 @@
                 "bgImage": null,
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "much of the development of jazz in this era actually occured in places like New York or Chicago",
+                    "NOLA musicians took jazz with them northward"
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -1816,7 +1837,10 @@
                 "bgImage": "bg-[url(https://upload.wikimedia.org/wikipedia/commons/5/50/Kidory.png)]",
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "composer, trombonist and bandleader",
+                    "The Ory band later was an important force in reviving interest in New Orleans jazz"
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -2295,7 +2319,10 @@
                     }
                 ],
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "the first jazz recording",
+                    "Original Dixieland Jazz Band, an ensemble consisting of white musicians"
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -2441,7 +2468,11 @@
                 "bgImage": "bg-[url(https://ids.si.edu/ids/deliveryService?max_w=800&id=NPG-NPG_94_43Armstrong-000002)]",
                 "links": false,
                 "color": "#7c45b9",
-                "keyPoints": false,
+                "keyPoints": [
+                    "trumpeter and vocalist",
+                    "among the most influential figures in jazz",
+                    "\"What a Wonderful World\", \"La Vie en Rose\", \"Hello, Dolly!\", \"On the Sunny Side of the Street\", \"Dream a Little Dream of Me\", \"When You're Smiling\" and \"When the Saints Go Marching In\""
+                ],
                 "presentations": [
                     {
                         "title": "NOLA Jazz",
@@ -9286,7 +9317,7 @@
                         ],
                         "relationships": [
                             {
-                                "title": "\"I recant\"",
+                                "title": "The trial that lead to \"I recant\"",
                                 "x": 47,
                                 "y": 100,
                                 "dy": 4,
