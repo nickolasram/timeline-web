@@ -69,30 +69,30 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
             grid grid-cols-1 grid-rows-1 justify-items-center items-center`}>
 
             {/* svg background / overlay */}
-            <svg
-                height={'100%'}
-                width={'100%'}
-                fill={'red'}
-                overflow={'visible'}
-                viewBox={`${-svgBaseWidth / 2} ${-svgBaseWidth / 2} ${svgBaseWidth} ${svgBaseWidth}`}
-                className={`col-1 row-1`}>
-                {/* relationship groups group */}
-                <defs>
-                    <filter id="shadow">
-                        <feDropShadow dx="0" dy="0" stdDeviation="2.5" floodColor="black" />
-                    </filter>
-                </defs>
-                <g>
-                    { landmark.relationshipGroups &&
-                        landmark.relationshipGroups.map((relationshipGroup, index) => {
-                            return(
-                                // relationship group
-                                <RelationshipGroup landmark={landmark} relationshipGroup={relationshipGroup} color={landmark.borderColor} key={index}/>
-                            )
-                        })
-                    }
-                </g>
-            </svg>
+            {/*<svg*/}
+            {/*    height={'100%'}*/}
+            {/*    width={'100%'}*/}
+            {/*    fill={'red'}*/}
+            {/*    overflow={'visible'}*/}
+            {/*    viewBox={`${-svgBaseWidth / 2} ${-svgBaseWidth / 2} ${svgBaseWidth} ${svgBaseWidth}`}*/}
+            {/*    className={`col-1 row-1`}>*/}
+            {/*    /!* relationship groups group *!/*/}
+            {/*    <defs>*/}
+            {/*        <filter id="shadow">*/}
+            {/*            <feDropShadow dx="0" dy="0" stdDeviation="2.5" floodColor="black" />*/}
+            {/*        </filter>*/}
+            {/*    </defs>*/}
+            {/*    <g>*/}
+            {/*        { landmark.relationshipGroups &&*/}
+            {/*            landmark.relationshipGroups.map((relationshipGroup, index) => {*/}
+            {/*                return(*/}
+            {/*                    // relationship group*/}
+            {/*                    <RelationshipGroup landmark={landmark} relationshipGroup={relationshipGroup} color={landmark.borderColor} key={index}/>*/}
+            {/*                )*/}
+            {/*            })*/}
+            {/*        }*/}
+            {/*    </g>*/}
+            {/*</svg>*/}
 
             {/* outer circle */}
             <div className={style.outerCircle}
