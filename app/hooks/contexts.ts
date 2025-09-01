@@ -1,4 +1,5 @@
 import {createContext, Dispatch, SetStateAction, useContext} from "react";
+import { IRelationship } from "@/types";
 
 export const TimelineContext = createContext({
     timelineId: 0,
@@ -20,6 +21,14 @@ export const TimelineContext = createContext({
     presentationHighIndex: 0,
     setPresentationHighIndex: {} as Dispatch<SetStateAction<number>>,
     presentationsSummary: [{}],
+    visibleThreads: [],
+    setVisibleThreads: {} as Dispatch<SetStateAction<IRelationship[]>>,
+    threads: [],
+    columns: 0,
+    setColumns: {} as Dispatch<SetStateAction<number>>,
+    svgColumns: '',
+    setSvgColumns: {} as Dispatch<SetStateAction<string>>,
+    circles: [],
 });
 
 export const useTimelineContext = () => useContext(TimelineContext);

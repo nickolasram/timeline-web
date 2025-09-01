@@ -14,15 +14,8 @@ export interface IYear{
 
 export interface IRelationship{
     title: string;
-    x: number;
-    y: number;
-    textAnchor: string;
-    dy: number;
     targetId: string;
     context:boolean|string;
-    date: number;
-    displayDate: boolean;
-    color: string;
 }
 
 export interface IRelationshipGroup {
@@ -42,6 +35,7 @@ export interface ILandmarkImage{
     description:string;
     alt:string;
 }
+
 
 export interface ILandmark {
     activeEndDay?: number;
@@ -80,6 +74,12 @@ export interface ILandmark {
     sources: boolean|string[];
     endDate: boolean|number;
     files: boolean|{link:string,display:string}[];
+    relationships: IRelationship[];
+}
+
+export interface ICircle{
+    xCoordinate: number;
+    yCoordinate: number;
 }
 
 export interface IMetaData {
@@ -89,6 +89,8 @@ export interface IMetaData {
     authors: string[];
     id:string;
     landmarkCount: number;
+    columns: number;
+    svgColumns: string;
 }
 
 export interface IPresentationMetadata {
@@ -103,11 +105,21 @@ export interface IPresentation {
     landmarks: ILandmark[];
 }
 
+export interface IThread {
+    id: string,
+    className: string,
+    viewbox: string,
+    path: string,
+    color: string
+}
+
 export interface ITimeline {
     meta: IMetaData;
     landmarks: ILandmark[];
     years: IYear[];
     yearsIndex: object;
     presentations: IPresentation[];
-    presentationsSummary: IPresentationMetadata[]
+    presentationsSummary: IPresentationMetadata[],
+    threads: IThread[];
+    circles: ICircle[];
 }

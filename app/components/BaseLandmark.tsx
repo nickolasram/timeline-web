@@ -61,12 +61,34 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
     if (landmark.endDate) yearString += ` - ${landmark.endDate}`
     if (landmark.deathYear) lifeYearString += ` ${landmark.deathYear}`
     const timelineContext = useTimelineContext();
+
+
+    
     return(
         // landmark container
         <div
             className={`${landmark.column} ${landmark.row}
             transition-all duration-300 ease-in-out group hover:z-70 z-5
             grid grid-cols-1 grid-rows-1 justify-items-center items-center`}>
+                { landmark.relationships.length > 0 &&
+                    <svg 
+                    className = {'col-1 row-1 cursor-pointer'}
+                    height={'100%'}
+                    width={'100%'}
+                    viewBox="0 0 100 100"
+                    onClick={()=>{
+                        // const idIndex = timelineContext.visibleThreads.indexOf(landmark.id);
+                        // console.log(idIndex)
+                        if (timelineContext.visibleThreads.includes(landmark.id)){
+                            timelineContext.setVisibleThreads(timelineContext.visibleThreads.filter(item => item !== landmark.id))
+                        } else {
+                            timelineContext.setVisibleThreads([landmark.id, ...timelineContext.visibleThreads])
+                        } // PROBABLY A BETTER WAY TO DO THIS THAN FILTER
+                    }}
+                    >
+                        <circle r={5} cx={90} cy={10} fill={'red'} />
+                    </svg>
+                }
 
             {/* svg background / overlay */}
             {/*<svg*/}

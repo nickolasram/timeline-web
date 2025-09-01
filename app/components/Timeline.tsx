@@ -5,7 +5,7 @@ import Navbar from "@/app/components/Navbar";
 import React from "react";
 import { useDraggable } from "react-use-draggable-scroll";
 import {useTimelineContext} from "@/app/hooks/contexts";
-import {ITimeline} from "@/types";
+import {IThread, ITimeline} from "@/types";
 
 interface ITimelineProps {
     timelineData: ITimeline;
@@ -35,6 +35,35 @@ const Timeline = ({timelineData}: ITimelineProps) => {
             <Navbar meta={meta} landmarks={landmarks} presentationsMeta={presentationsMeta} />
             <section  id='timelineId' className={`bg-[#0b030f] grid grid-rows-12 w-fit min-w-screen sticky top-[4rem]
                                                 ${heightValues}`}>
+                {/* { timelineContext.visibleThreads.map((id, i)=>{
+                    const thread = timelineContext.threads.find((obj) => id == obj.id)
+                    return (
+                        <svg 
+                            key={i}
+                            viewBox={thread.viewbox}
+                            className={thread.className}>
+                           <defs>
+                                <filter id="f1">
+                                    <feDropShadow dx="0" dy="0" stdDeviation="0.5" floodColor={'white'} />
+                                </filter>
+                            </defs>
+                            <path stroke={thread.color} strokeWidth={0.25} d={thread.path} fill={"none"} filter="url(#f1)"/>
+                        </svg>
+                    )
+                })
+                } */}
+                <svg
+                    className={`col-start-1 ${timelineContext.svgColumns} row-start-1 row-end-13 bg-white`}
+                    viewBox={`0 0 ${timelineContext.columns*10} 120`}
+                >
+                { timelineContext.circles.map((c, i)=>{
+                    return(
+                        <circle key={i} cx={c.xCoordinate} cy={c.yCoordinate} r={2} fill="blue" />
+                    )
+                })
+
+                }
+                </svg>
                 {
                     landmarks.map((landmark, index) => {
                         return (
@@ -58,6 +87,7 @@ const Timeline = ({timelineData}: ITimelineProps) => {
                         }
                     })
                 }
+                
             </section>
             <TimelineTickbar years={years} />
         </div>
