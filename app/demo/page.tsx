@@ -117,6 +117,9 @@ const Page =()=>{
                 <circle cx="45" cy="5" r="4" fill={"red"}/>
                 <circle cx="55" cy="15" r="4" fill={"red"}/>
             </svg>
+            <div className={'relative border-2 border-black w-[5ch] h-5'}>
+                <p className={'wiggle'}>asdsadasdasd</p>
+            </div>
         </div>
     )
 }

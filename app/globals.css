@@ -113,3 +113,20 @@ body {
   top: 55%;
   z-index: -1;
 }
+
+.scroll-to-show:hover{
+  animation: scroll-to-show-kf 5s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes scroll-to-show-kf {
+  5% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(calc(14ch - 100%));
+  }
+  55% {
+    transform: translateX(calc(14ch - 100%));
+  }
+}

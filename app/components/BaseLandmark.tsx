@@ -1,6 +1,6 @@
 import RelationshipGroup from "@/app/components/RelationshipGroup";
 import InfoModal from "@/app/components/InfoModal";
-import { ILandmark } from "@/types";
+import {ILandmark, IThread} from "@/types";
 import { useState } from "react";
 import {useTimelineContext} from "@/app/hooks/contexts";
 
@@ -27,7 +27,7 @@ const landmarkStyle =(landmark: ILandmark)=>{
         title: landmark.size == 7 && landmark.intro ? 'line-clamp-2 ': 'line-clamp-3 ',
         years: landmark.size == 5 ? `text-sm` : `text-md`,
         textContainer: 'h-[71%] w-[71%] flex justify-center ',
-        outerCircle: `col-1 row-1 border-4
+        outerCircle: `col-1 row-1 border-4 hover:scale-105 transition-all duration-200
                       ${landmark.borderColor} 
                       w-[75%] h-[75%] rounded-full ${landmark.bgImage} 
                       bg-cover bg-center cursor-pointer
@@ -53,6 +53,7 @@ const landmarkStyle =(landmark: ILandmark)=>{
 
 const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
     const [isOpen, setIsOpen] = useState(false)
+    const [showThreads, setShowThreads] = useState(false)
     const style = landmarkStyle(landmark)
     let yearString = `${landmark.year}`
     if (landmark.person) yearString = 'active: ' + yearString
@@ -62,6 +63,28 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
     if (landmark.deathYear) lifeYearString += ` ${landmark.deathYear}`
     const timelineContext = useTimelineContext();
 
+    const isTerminal=(thread: IThread, id: string)=>{
+        return thread.terminalA == id || thread.terminalB == id;
+    }
+
+    const toggleThreads=()=>{
+        if (showThreads){
+            console.log(landmark.id)
+            const filteredThreads = timelineContext.visibleThreads.filter(obj=>!isTerminal(obj, landmark.id))
+            timelineContext.setVisibleThreads(filteredThreads);
+        } else {
+            const newThreads: IThread[] = [];
+            for (const thread of timelineContext.threads) {
+                if (isTerminal(thread, landmark.id)){
+                    if (!timelineContext.visibleThreads.includes(thread)){
+                        newThreads.push(thread);
+                    }
+                }
+            }
+            timelineContext.setVisibleThreads([...timelineContext.visibleThreads, ...newThreads]);
+        }
+        setShowThreads(!showThreads);
+    }
 
     
     return(
@@ -72,18 +95,13 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
             grid grid-cols-1 grid-rows-1 justify-items-center items-center`}>
                 { landmark.relationships.length > 0 &&
                     <svg 
-                    className = {'col-1 row-1 cursor-pointer'}
+                    className = {'col-1 row-1'}
                     height={'100%'}
                     width={'100%'}
                     viewBox="0 0 100 100"
                     onClick={()=>{
-                        // const idIndex = timelineContext.visibleThreads.indexOf(landmark.id);
-                        // console.log(idIndex)
-                        if (timelineContext.visibleThreads.includes(landmark.id)){
-                            timelineContext.setVisibleThreads(timelineContext.visibleThreads.filter(item => item !== landmark.id))
-                        } else {
-                            timelineContext.setVisibleThreads([landmark.id, ...timelineContext.visibleThreads])
-                        } // PROBABLY A BETTER WAY TO DO THIS THAN FILTER
+                        toggleThreads();
+                        timelineContext.setToggledLandmarks([landmark, ...timelineContext.toggledLandmarks])
                     }}
                     >
                         <circle r={5} cx={90} cy={10} fill={'red'} />
@@ -131,7 +149,7 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
             }}>
                 {/* inner circle */}
                 <div id={landmark.id} className={`${landmark.bgColor} w-full h-full 
-                rounded-full flex flex-col 
+                rounded-full flex flex-col
                 justify-center items-center 
                 cursor-pointer`}>
                     {/* text container */}

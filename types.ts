@@ -106,11 +106,16 @@ export interface IPresentation {
 }
 
 export interface IThread {
-    id: string,
-    className: string,
-    viewbox: string,
-    path: string,
-    color: string
+    terminalA: string,
+    terminalB: string,
+    d: string,
+    title: string,
+    context: string
+    colorA: string,
+    colorB: string,
+    markerA: string,
+    markerB: string,
+    gradientId: string
 }
 
 export interface ITimeline {
