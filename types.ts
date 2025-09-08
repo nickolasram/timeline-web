@@ -101,21 +101,35 @@ export interface IPresentationMetadata {
 }
 
 export interface IPresentation {
-    meta: IPresentationMetadata
+    meta: IPresentationMetadata;
     landmarks: ILandmark[];
 }
 
+export interface IParticle {
+    xDAP: number;
+    yDAP: number;
+    path: string;
+    x: number;
+    y: number;
+}
+
 export interface IThread {
-    terminalA: string,
-    terminalB: string,
-    d: string,
-    title: string,
-    context: string
-    colorA: string,
-    colorB: string,
-    markerA: string,
-    markerB: string,
-    gradientId: string
+    terminalA: string;
+    terminalB: string;
+    d: string;
+    title: string;
+    context: string;
+    colorA: string;
+    colorB: string;
+    markerA: string;
+    markerB: string;
+    gradientId: string;
+    borderColorA: string;
+    borderColorB: string;
+    titleA: string;
+    titleB: string;
+    particleA: IParticle;
+    particleB: IParticle;
 }
 
 export interface ITimeline {

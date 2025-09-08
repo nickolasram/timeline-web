@@ -1,3 +1,7 @@
+"use client"
+
+import { useState, useRef } from "react";
+
 interface coordinate{
     x: number;
     y: number;
@@ -71,56 +75,97 @@ const LineSVG=({coordinates}: lsvgProps)=>{
 }
 
 const Page =()=>{
+    const [cx, setCx] = useState(true);
+    const [repeat, setRepeat] = useState(true)
+    const svgRef = useRef<SVGAnimateMotionElement>(null)
     return(
-        <div className={`w-[100vh] h-screen bg-purple-800 grid grid-rows-12 grid-cols-12`}>
-            <div>
-                {/*<div className={`col-start-1 col-end-2 row-start-1 row-end-13 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-3 col-end-4 row-start-1 row-end-13 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-5 col-end-6 row-start-1 row-end-13 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={` col-start-7 col-end-8 row-start-1 row-end-13 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-9 col-end-10 row-start-1 row-end-13 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-11 col-end-12 row-start-1 row-end-13 border-2 border-black`}>*/}
-                {/*</div>*/}
-
-
-                {/*<div className={`col-start-1 col-end-13 row-start-1 row-end-2 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-1 col-end-13 row-start-3 row-end-4 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-1 col-end-13 row-start-5 row-end-6 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-1 col-end-13 row-start-7 row-end-8 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-1 col-end-13 row-start-9 row-end-10 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<div className={`col-start-1 col-end-13 row-start-11 row-end-12 border-2 border-black`}>*/}
-                {/*</div>*/}
-                {/*<LineSVG coordinates={[{x: 1, y: 3}, {x: 5, y: 1}, {x: 4, y: 7}, {x: 6, y: 2}]}/>*/}
-            </div>
-
-            <LineSVG coordinates={[{x: 3, y: 3}, {x: 2, y: 2}, {x: 1, y: 4}, {x: 5, y: 1}, {x: 4, y: 7}, {x: 6, y: 2}]}/>
-
-            <svg xmlns="http://www.w3.org/2000/svg"
-                 viewBox="0 0 120 120"
-                 fill="blue"
-                 className={`col-start-1 -col-end-1 row-start-1 -row-end-1`}
-                 >
-                <circle cx="25" cy="25" r="4" fill={"red"}/>
-                <circle cx="5" cy="35" r="4" fill={"red"}/>
-                <circle cx="15" cy="15" r="4" fill={"red"}/>
-                <circle cx="35" cy="65" r="4" fill={"red"}/>
-                <circle cx="45" cy="5" r="4" fill={"red"}/>
-                <circle cx="55" cy="15" r="4" fill={"red"}/>
+        <div>
+            <input 
+                type='submit' 
+                className="bg-blue-500 cursor-pointer"
+                onClick={()=>{
+                    const playing = cx
+                    setCx(!cx)
+                    setRepeat(!repeat)
+                    if (!playing){
+                        svgRef.current!.beginElement();
+                    }
+                }}
+                />
+            <svg
+                viewBox='0 0 36 36'
+                className="size-36 border-white border-1"
+            >
+                <circle cx='18' cy='18' r='3' fill='white' />
+                <circle cx={cx? 0 : -12} cy='0' r='3' fill='blue' className="transition-all duration-500">
+                    <animateMotion
+                        ref={svgRef}
+                        dur={'2s'}
+                        repeatCount={repeat ? 'indefinite' : '1'}
+                        path='M30 18 L30 20S25 25 23 23Z'
+                        fill='freeze'
+                    />
+                </circle>
             </svg>
-            <div className={'relative border-2 border-black w-[5ch] h-5'}>
-                <p className={'wiggle'}>asdsadasdasd</p>
-            </div>
         </div>
+        // <rect width="10" height="10">
+//     {/* <animate
+//       attributeName="rx"
+//       values="0;5;0"
+//       dur="10s"
+//       repeatCount="indefinite" />
+//   </rect> */}
+
+
+        // // <div className={`w-[100vh] h-screen bg-purple-800 grid grid-rows-12 grid-cols-12`}>
+        //     // <div>
+        //         {/*<div className={`col-start-1 col-end-2 row-start-1 row-end-13 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-3 col-end-4 row-start-1 row-end-13 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-5 col-end-6 row-start-1 row-end-13 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={` col-start-7 col-end-8 row-start-1 row-end-13 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-9 col-end-10 row-start-1 row-end-13 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-11 col-end-12 row-start-1 row-end-13 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+
+
+        //         {/*<div className={`col-start-1 col-end-13 row-start-1 row-end-2 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-1 col-end-13 row-start-3 row-end-4 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-1 col-end-13 row-start-5 row-end-6 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-1 col-end-13 row-start-7 row-end-8 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-1 col-end-13 row-start-9 row-end-10 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<div className={`col-start-1 col-end-13 row-start-11 row-end-12 border-2 border-black`}>*/}
+        //         {/*</div>*/}
+        //         {/*<LineSVG coordinates={[{x: 1, y: 3}, {x: 5, y: 1}, {x: 4, y: 7}, {x: 6, y: 2}]}/>*/}
+        //     // </div>
+
+        //     {/* <LineSVG coordinates={[{x: 3, y: 3}, {x: 2, y: 2}, {x: 1, y: 4}, {x: 5, y: 1}, {x: 4, y: 7}, {x: 6, y: 2}]}/>
+
+        //     <svg xmlns="http://www.w3.org/2000/svg"
+        //          viewBox="0 0 120 120"
+        //          fill="blue"
+        //          className={`col-start-1 -col-end-1 row-start-1 -row-end-1`}
+        //          >
+        //         <circle cx="25" cy="25" r="4" fill={"red"}/>
+        //         <circle cx="5" cy="35" r="4" fill={"red"}/>
+        //         <circle cx="15" cy="15" r="4" fill={"red"}/>
+        //         <circle cx="35" cy="65" r="4" fill={"red"}/>
+        //         <circle cx="45" cy="5" r="4" fill={"red"}/>
+        //         <circle cx="55" cy="15" r="4" fill={"red"}/>
+        //     </svg>
+        //     <div className={'relative border-2 border-black w-[5ch] h-5'}>
+        //         <p className={'wiggle'}>asdsadasdasd</p>
+        //     </div> */}
+        // // </div>
     )
 }
 

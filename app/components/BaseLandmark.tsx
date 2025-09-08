@@ -69,7 +69,6 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
 
     const toggleThreads=()=>{
         if (showThreads){
-            console.log(landmark.id)
             const filteredThreads = timelineContext.visibleThreads.filter(obj=>!isTerminal(obj, landmark.id))
             timelineContext.setVisibleThreads(filteredThreads);
         } else {
@@ -101,7 +100,13 @@ const BaseLandmark=({landmark}: IBaseLandmarkProp) => {
                     viewBox="0 0 100 100"
                     onClick={()=>{
                         toggleThreads();
-                        timelineContext.setToggledLandmarks([landmark, ...timelineContext.toggledLandmarks])
+                        if (timelineContext.toggledLandmarks.includes(landmark)){
+                            const filteredLandmarks = timelineContext.toggledLandmarks.filter(obj=>{obj != landmark})
+                            timelineContext.setToggledLandmarks(filteredLandmarks)
+                        } else {
+                            timelineContext.setToggledLandmarks([landmark, ...timelineContext.toggledLandmarks])
+                        }
+
                     }}
                     >
                         <circle r={5} cx={90} cy={10} fill={'red'} />

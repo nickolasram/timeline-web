@@ -130,3 +130,20 @@ body {
     transform: translateX(calc(14ch - 100%));
   }
 }
+
+.small-scroll-to-show:hover{
+  animation: small-scroll-to-show-kf 5s ease-in-out infinite;
+  display: inline-block;
+}
+
+@keyframes small-scroll-to-show-kf {
+  5% {
+    transform: none;
+  }
+  50% {
+    transform: translateX(calc(-100% + 10ch));
+  }
+  55% {
+    transform: translateX(calc(-100% + 10ch));
+  }
+}
